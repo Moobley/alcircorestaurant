@@ -1,0 +1,175 @@
+{
+  "categories": {
+    "antipasti": { "es": "Entrantes", "it": "Antipasti", "en": "Starters", "fr": "Entrées", "de": "Vorspeisen" },
+    "insalate": { "es": "Ensaladas", "it": "Insalate", "en": "Salads", "fr": "Salades", "de": "Salate" },
+    "pani": { "es": "Panes Caseros", "it": "I Pani Fatti in Casa", "en": "Homemade Breads", "fr": "Pains Maison", "de": "Hausgemachte Brote" },
+    "menu-vegano": { "es": "Menú Vegano", "it": "Menù Vegano", "en": "Vegan Menu", "fr": "Menu Végétalien", "de": "Vegane Speisekarte" }
+  },
+  "subcategories": {},
+  "items": {
+    "antipasto-toscano": {
+      "name": { "es": "Antipasto Toscano", "it": "Antipasto Toscano", "en": "Tuscan Antipasto", "fr": "Antipasto toscan", "de": "Toskanischer Antipasto" },
+      "description": { "es": "Selección de embutidos y quesos italianos con mermeladas...", "it": "Selezione di salumi e formaggi italiani con marmellate...", "en": "Selection of Italian cured meats and cheeses with jams...", "fr": "Sélection de charcuteries et fromages italiens avec confitures...", "de": "Auswahl an italienischen Wurstwaren und Käse mit Marmeladen..." }
+    },
+    "il-nostro-vitel-tonne": {
+      "name": { "es": "Nuestro vitel tonné", "it": "Il nostro vitel tonnè", "en": "Our vitel tonné", "fr": "Notre vitel tonné", "de": "Unser Vitello Tonnato" },
+      "description": { "es": "asado de cerdo con salsa tonnata y grissini artesanos...", "it": "arrosto di maiale con salsa tonnata e grissini artigianali...", "en": "roast pork with tuna sauce and artisan breadsticks...", "fr": "rôti de porc avec sauce tonnata et grissini artisanaux...", "de": "Schweinebraten mit Thunfischsauce und hausgemachten Grissini..." }
+    },
+    "carpaccio-di-bresaola": {
+      "name": { "es": "Carpaccio de bresaola", "it": "Carpaccio di bresaola", "en": "Bresaola carpaccio", "fr": "Carpaccio de bresaola", "de": "Bresaola-Carpaccio" },
+      "description": { "es": "con burrata, rúcula, grana, tomates cherry y citronette", "it": "con burrata, rucola, grana, pomodorini e citronette", "en": "with burrata, rocket, grana cheese, cherry tomatoes and citronette", "fr": "avec burrata, roquette, grana, tomates cerises et citronnette", "de": "mit Burrata, Rucola, Grana, Kirschtomaten und Citronette" }
+    },
+    "tartar-di-manzo-del-giorno": {
+      "name": { "es": "Tartar de ternera del día", "it": "Tartar di manzo del giorno", "en": "Beef tartare of the day", "fr": "Tartare de bœuf du jour", "de": "Rindfleisch-Tartar des Tages" },
+      "description": { "es": "Carne cruda condimentada preparada al momento", "it": "", "en": "Seasoned raw beef prepared to order", "fr": "Bœuf cru assaisonné préparé sur commande", "de": "Gewürztes rohes Rindfleisch, frisch zubereitet" }
+    },
+    "parmigiana-di-melanzane": {
+      "name": { "es": "Parmigiana de berenjenas", "it": "Parmigiana di Melanzane", "en": "Aubergine parmigiana", "fr": "Parmigiana d'aubergines", "de": "Melanzani-Parmigiana" },
+      "description": { "es": "Receta siciliana de Giovanna, madre de Gabriele", "it": "Ricetta siciliana di Giovanna, madre di Gabriele", "en": "Sicilian recipe from Giovanna, Gabriele's mother", "fr": "Recette sicilienne de Giovanna, la mère de Gabriele", "de": "Sizilianisches Rezept von Giovanna, der Mutter von Gabriele" }
+    },
+    "bruschetta": {
+      "name": { "es": "Bruschetta", "it": "Bruschetta", "en": "Bruschetta", "fr": "Bruschetta", "de": "Bruschetta" },
+      "description": { "es": "pan tostado, ajo, tomate fresco, albahaca", "it": "pane tostato, aglio, pomodoro fresco, basilico", "en": "toasted bread, garlic, fresh tomato, basil", "fr": "pain grillé, ail, tomate fraîche, basilic", "de": "getoastetes Brot, Knoblauch, frische Tomaten, Basilikum" }
+    },
+    "gamberi-con-cipolla-agrodolce-basilico-pinoli": {
+      "name": { "es": "Gambas con cebolla agridulce, albahaca, piñones", "it": "Gamberi con cipolla agrodolce, basilico, pinoli", "en": "Prawns with sweet-and-sour onion, basil and pine nuts", "fr": "Gambas à l'oignon aigre-doux, basilic et pignons", "de": "Garnelen mit süß-saurer Zwiebel, Basilikum und Pinienkernen" },
+      "description": { "es": "Receta original de Tina, madre de Alessia", "it": "Ricetta originale della Tina, mamma di Alessia", "en": "Original recipe from Tina, Alessia's mother", "fr": "Recette originale de Tina, la maman d'Alessia", "de": "Originalrezept von Tina, Alessias Mutter" }
+    },
+    "insalata-caprese": {
+      "name": { "es": "Ensalada caprese", "it": "Insalata Caprese", "en": "Caprese salad", "fr": "Salade caprese", "de": "Caprese-Salat" },
+      "description": { "es": "tomate, mozzarella de búfala, albahaca", "it": "pomodoro, mozzarella di bufala, basilico", "en": "tomato, buffalo mozzarella, basil", "fr": "tomate, mozzarella de bufflonne, basilic", "de": "Tomaten, Büffelmozzarella, Basilikum" }
+    },
+    "cozze-al-vino-bianco": {
+      "name": { "es": "Mejillones al vino blanco", "it": "Cozze al vino bianco", "en": "Mussels in white wine", "fr": "Moules au vin blanc", "de": "Miesmuscheln in Weißwein" },
+      "description": { "es": "Mejillones al vino blanco, ajo y perejil", "it": "Cozze al vino bianco, aglio e prezzemolo", "en": "Mussels in white wine, garlic and parsley", "fr": "Moules au vin blanc, ail et persil", "de": "Miesmuscheln in Weißwein, Knoblauch und Petersilie" }
+    },
+    "focazzone": {
+      "name": { "es": "Focazzone", "it": "Focazzone", "en": "Focazzone", "fr": "Focazzone", "de": "Focazzone" },
+      "description": { "es": "calzone con mozzarella, jamón crudo y aceitunas", "it": "calzone con mozzarella, prosciutto crudo, olive", "en": "calzone with mozzarella, cured ham and olives", "fr": "calzone à la mozzarella, jambon cru et olives", "de": "Calzone mit Mozzarella, Rohschinken und Oliven" }
+    },
+    "insalata-clown-tonno": {
+      "name": { "es": "Ensalada Clown con atún", "it": "Insalata Clown Tonno", "en": "Clown salad with tuna", "fr": "Salade clown au thon", "de": "Clown-Salat mit Thunfisch" },
+      "description": { "es": "Ensalada mixta con atún, aceitunas y alcaparras grandes", "it": "Insalata mista con tonno, olive e capperi grandi", "en": "Mixed salad with tuna, olives and large capers", "fr": "Salade verte au thon, olives et gros câpres", "de": "Gemischter Salat mit Thunfisch, Oliven und großen Kapern" }
+    },
+    "insalata-clown-gamberi": {
+      "name": { "es": "Ensalada Clown con gambas", "it": "Insalata Clown Gamberi", "en": "Clown salad with prawns", "fr": "Salade clown aux gambas", "de": "Clown-Salat mit Garnelen" },
+      "description": { "es": "Ensalada mixta con gambas y manzana", "it": "Insalata mista con gamberi e mela", "en": "Mixed salad with prawns and apple", "fr": "Salade verte aux gambas et à la pomme", "de": "Gemischter Salat mit Garnelen und Apfel" }
+    },
+    "insalata-clown-pollo": {
+      "name": { "es": "Ensalada Clown con pollo", "it": "Insalata Clown Pollo", "en": "Clown salad with chicken", "fr": "Salade clown au poulet", "de": "Clown-Salat mit Hähnchen" },
+      "description": { "es": "Ensalada mixta con pollo, apio y lascas de grana padano", "it": "Insalata mista con pollo, sedano e scaglie di grana padano", "en": "Mixed salad with chicken, celery and Grana Padano shavings", "fr": "Salade verte au poulet, céleri et copeaux de grana padano", "de": "Gemischter Salat mit Hähnchen, Sellerie und Grana-Padano-Hobeln" }
+    },
+    "insalata-clown-di-verdure": {
+      "name": { "es": "Ensalada clown de verduras", "it": "Insalata clown di verdure", "en": "Clown vegetable salad", "fr": "Salade clown de légumes", "de": "Clown-Gemüsesalat" },
+      "description": { "es": "Ensalada mixta con verduras", "it": "Insalata mista con verdure", "en": "Mixed salad with vegetables", "fr": "Salade verte de légumes", "de": "Gemischter Salat mit Gemüse" }
+    },
+    "insalata-belley-sister": {
+      "name": { "es": "Ensalada Belley Sister", "it": "Insalata Belley Sister", "en": "Belley Sister salad", "fr": "Salade Belley Sister", "de": "Belley-Sister-Salat" },
+      "description": { "es": "canónigos, burrata, gambas y reducción de fresas", "it": "Valeriana, burrata, gamberi e riduzione di fragole", "en": "lambs lettuce, burrata, prawns and strawberry reduction", "fr": "mâche, burrata, gambas et réduction de fraises", "de": "Feldsalat, Burrata, Garnelen und Erdbeerreduktion" }
+    },
+    "focaccia-al-rosmarino": {
+      "name": { "es": "Focaccia de romero", "it": "Focaccia al rosmarino", "en": "Rosemary focaccia", "fr": "Focaccia au romarin", "de": "Rosmarin-Focaccia" },
+      "description": { "es": "Focaccia casera con romero", "it": "", "en": "Homemade focaccia with rosemary", "fr": "Focaccia maison au romarin", "de": "Hausgemachte Focaccia mit Rosmarin" }
+    },
+    "focaccia-altea-con-aglio-e-mozzarella": {
+      "name": { "es": "Focaccia ALTEA con ajo y mozzarella", "it": "Focaccia ALTEA con aglio e mozzarella", "en": "ALTEA focaccia with garlic and mozzarella", "fr": "Focaccia ALTEA à l'ail et à la mozzarella", "de": "ALTEA-Focaccia mit Knoblauch und Mozzarella" },
+      "description": { "es": "Focaccia ALTEA con ajo y mozzarella", "it": "Focaccia ALTEA con aglio e mozzarella", "en": "ALTEA focaccia with garlic and mozzarella", "fr": "Focaccia ALTEA à l'ail et à la mozzarella", "de": "ALTEA-Focaccia mit Knoblauch und Mozzarella" }
+    },
+    "focaccia-rossa": {
+      "name": { "es": "Focaccia roja", "it": "Focaccia rossa", "en": "Red focaccia", "fr": "Focaccia rouge", "de": "Rote Focaccia" },
+      "description": { "es": "salsa de tomate, ajo y orégano", "it": "salsa di pomodoro, aglio e origano", "en": "tomato sauce, garlic and oregano", "fr": "sauce tomate, ail et origan", "de": "Tomatensauce, Knoblauch und Oregano" }
+    },
+    "focaccia-tricolore": {
+      "name": { "es": "Focaccia tricolor", "it": "Focaccia tricolore", "en": "Tricolour focaccia", "fr": "Focaccia tricolore", "de": "Trikolore-Focaccia" },
+      "description": { "es": "salsa de tomate, mozzarella y salsa verde. Disponible...", "it": "salsa di pomodoro, mozzarella e salsa verde. Disponibile...", "en": "tomato sauce, mozzarella and green sauce. Available...", "fr": "sauce tomate, mozzarella et salsa verde. Disponible...", "de": "Tomatensauce, Mozzarella und grüne Sauce. Erhältlich..." }
+    },
+    "focaccia-al-lardo": {
+      "name": { "es": "Focaccia con lardo", "it": "Focaccia al lardo", "en": "Focaccia with lardo", "fr": "Focaccia au lardo", "de": "Focaccia mit Lardo" },
+      "description": { "es": "lardo de Colonnata, tomates cherry y romero", "it": "lardo di Colonnata pomodorini e rosmarino", "en": "Colonnata lardo, cherry tomatoes and rosemary", "fr": "lardo de Colonnata, tomates cerises et romarin", "de": "Colonnata-Lardo, Kirschtomaten und Rosmarin" }
+    },
+    "cestino-di-pane-sciocco-toscano-fatto-in-casa": {
+      "name": { "es": "Cestita de pan sciocco toscano hecho en casa", "it": "Cestino di pane sciocco toscano fatto in casa", "en": "Basket of homemade Tuscan sciocco bread", "fr": "Panier de pain sciocco toscan fait maison", "de": "Körbchen mit hausgemachtem toskanischem Sciocco-Brot" },
+      "description": { "es": "Pan toscano sin sal hecho en casa", "it": "", "en": "Homemade salt-free Tuscan bread", "fr": "Pain toscan sans sel fait maison", "de": "Hausgemachtes salzfreies toskanisches Brot" }
+    },
+    "pane-e-olive-aromatizzate": {
+      "name": { "es": "Pan y aceitunas aromatizadas", "it": "Pane e olive aromatizzate", "en": "Bread and flavoured olives", "fr": "Pain et olives parfumées", "de": "Brot und aromatisierte Oliven" },
+      "description": { "es": "Pan casero con aceitunas aromatizadas", "it": "", "en": "Homemade bread with flavoured olives", "fr": "Pain maison et olives parfumées", "de": "Hausgemachtes Brot mit aromatisierten Oliven" }
+    },
+    "la-pizza-vegana-piu-buona-del-mondo": {
+      "name": { "es": "LA PIZZA VEGANA MÁS BUENA DEL MUNDO", "it": "LA PIZZA VEGANA PIÙ BUONA DEL MONDO", "en": "THE BEST VEGAN PIZZA IN THE WORLD", "fr": "LA MEILLEURE PIZZA VÉGÉTALIENNE DU MONDE", "de": "DIE BESTE VEGANE PIZZA DER WELT" },
+      "description": { "es": "Calabacín, rúcula, tomates cherry, setas porcini, mozzarella vegana, parmesano vegano", "it": "Zucchini, rucola, pomodorini, funghi porcini, vegan mozzarella, vegan parmigiano", "en": "Courgette, rocket, cherry tomatoes, porcini mushrooms, vegan mozzarella, vegan parmesan", "fr": "Courgettes, roquette, tomates cerises, cèpes, mozzarella végétale, parmesan végétal", "de": "Zucchini, Rucola, Kirschtomaten, Steinpilze, vegane Mozzarella, veganer Parmesan" }
+    },
+    "melanzane-con-parmigiana-vegana": {
+      "name": { "es": "Berenjenas con parmigiana vegana", "it": "Melanzane con parmigiana vegana", "en": "Aubergines with vegan parmigiana", "fr": "Aubergines à la parmigiana végétalienne", "de": "Auberginen mit veganer Parmigiana" },
+      "description": { "es": "con mozzarella de leche de arroz", "it": "con mozzarella di latte di riso", "en": "with rice milk mozzarella", "fr": "avec mozzarella au lait de riz", "de": "mit Mozzarella aus Reismilch" }
+    },
+    "crema-di-pomodoro": {
+      "name": { "es": "Crema de tomate", "it": "Crema di pomodoro", "en": "Tomato cream", "fr": "Crème de tomate", "de": "Tomatensuppe" },
+      "description": { "es": "con albahaca y crostini de pan casero al ajo", "it": "con basilico e crostini di pane casereccio all'aglio", "en": "with basil and garlic croutons of homemade bread", "fr": "avec basilic et croûtons de pain de campagne à l'ail", "de": "mit Basilikum und Knoblauch-Brotcroûtons aus hausgemachtem Brot" }
+    },
+    "bruschetta-2": {
+      "name": { "es": "Bruschetta", "it": "Bruschetta", "en": "Bruschetta", "fr": "Bruschetta", "de": "Bruschetta" },
+      "description": { "es": "Pan tostado con tomate, ajo y albahaca", "it": "", "en": "Toasted bread with tomato, garlic and basil", "fr": "Pain grillé à la tomate, à l'ail et au basilic", "de": "Getoastetes Brot mit Tomate, Knoblauch und Basilikum" }
+    },
+    "focaccia-al-rosmarino-2": {
+      "name": { "es": "Focaccia de romero", "it": "Focaccia al rosmarino", "en": "Rosemary focaccia", "fr": "Focaccia au romarin", "de": "Rosmarin-Focaccia" },
+      "description": { "es": "Focaccia casera con romero", "it": "", "en": "Homemade focaccia with rosemary", "fr": "Focaccia maison au romarin", "de": "Hausgemachte Focaccia mit Rosmarin" }
+    },
+    "focaccia-rossa-2": {
+      "name": { "es": "Focaccia roja", "it": "Focaccia rossa", "en": "Red focaccia", "fr": "Focaccia rouge", "de": "Rote Focaccia" },
+      "description": { "es": "Focaccia con salsa de tomate, ajo y orégano", "it": "", "en": "Focaccia with tomato sauce, garlic and oregano", "fr": "Focaccia à la sauce tomate, à l'ail et à l'origan", "de": "Focaccia mit Tomatensauce, Knoblauch und Oregano" }
+    },
+    "pane-fatto-in-casa": {
+      "name": { "es": "Pan hecho en casa", "it": "Pane fatto in casa", "en": "Homemade bread", "fr": "Pain fait maison", "de": "Hausgemachtes Brot" },
+      "description": { "es": "con aceitunas condimentadas", "it": "con olive condite", "en": "with seasoned olives", "fr": "avec olives assaisonnées", "de": "mit gewürzten Oliven" }
+    },
+    "insalata-clown-di-verdure-2": {
+      "name": { "es": "Ensalada clown de verduras", "it": "Insalata clown di verdure,", "en": "Clown vegetable salad", "fr": "Salade clown de légumes", "de": "Clown-Gemüsesalat" },
+      "description": { "es": "Ensalada mixta con verduras", "it": "", "en": "Mixed salad with vegetables", "fr": "Salade verte de légumes", "de": "Gemischter Salat mit Gemüse" }
+    },
+    "pizza-con-ingredienti-a-scelta-e-mozzarella-vegana-di-riso": {
+      "name": { "es": "Pizza con ingredientes a elegir y mozzarella vegana de arroz", "it": "Pizza con ingredienti a Scelta e mozzarella vegana di riso", "en": "Pizza with choice of toppings and rice vegan mozzarella", "fr": "Pizza aux ingrédients au choix et mozzarella végétale de riz", "de": "Pizza mit Toppings nach Wahl und veganer Reismozzarella" },
+      "description": { "es": "El precio cambia según los ingredientes elegidos", "it": "Il prezzo cambia in base agli ingredienti scelti", "en": "The price varies depending on the chosen toppings", "fr": "Le prix varie selon les ingrédients choisis", "de": "Der Preis richtet sich nach den gewählten Zutaten" }
+    },
+    "maccheroni-spaghetti-o-paccheri-con": {
+      "name": { "es": "Maccheroni, spaghetti o paccheri con", "it": "Maccheroni, spaghetti o paccheri con", "en": "Maccheroni, spaghetti or paccheri with", "fr": "Maccheroni, spaghetti ou paccheri avec", "de": "Maccheroni, Spaghetti oder Paccheri mit" },
+      "description": { "es": "salsa de tomate", "it": "salsa di pomodoro", "en": "tomato sauce", "fr": "sauce tomate", "de": "Tomatensauce" }
+    },
+    "maccheroni-spaghetti-o-paccheri-con-2": {
+      "name": { "es": "Maccheroni, spaghetti o paccheri con", "it": "Maccheroni, spaghetti o paccheri con", "en": "Maccheroni, spaghetti or paccheri with", "fr": "Maccheroni, spaghetti ou paccheri avec", "de": "Maccheroni, Spaghetti oder Paccheri mit" },
+      "description": { "es": "Arrabbiata", "it": "Arrabbiata", "en": "Arrabbiata", "fr": "Arrabbiata", "de": "Arrabbiata" }
+    },
+    "maccheroni-spaghetti-o-paccheri-con-3": {
+      "name": { "es": "Maccheroni, spaghetti o paccheri con", "it": "Maccheroni, spaghetti o paccheri con", "en": "Maccheroni, spaghetti or paccheri with", "fr": "Maccheroni, spaghetti ou paccheri avec", "de": "Maccheroni, Spaghetti oder Paccheri mit" },
+      "description": { "es": "Setas porcini", "it": "Funghi porcini", "en": "Porcini mushrooms", "fr": "Cèpes (porcini)", "de": "Steinpilze" }
+    },
+    "maccheroni-spaghetti-o-paccheri-con-4": {
+      "name": { "es": "Maccheroni, spaghetti o paccheri con", "it": "Maccheroni, spaghetti o paccheri con", "en": "Maccheroni, spaghetti or paccheri with", "fr": "Maccheroni, spaghetti ou paccheri avec", "de": "Maccheroni, Spaghetti oder Paccheri mit" },
+      "description": { "es": "Setas porcini con trufa", "it": "Funghi porcini al tartufo", "en": "Porcini mushrooms with truffle", "fr": "Cèpes à la truffe", "de": "Steinpilze mit Trüffel" }
+    },
+    "maccheroni-spaghetti-o-paccheri-con-5": {
+      "name": { "es": "Maccheroni, spaghetti o paccheri con", "it": "Maccheroni, spaghetti o paccheri con", "en": "Maccheroni, spaghetti or paccheri with", "fr": "Maccheroni, spaghetti ou paccheri avec", "de": "Maccheroni, Spaghetti oder Paccheri mit" },
+      "description": { "es": "Pesto genovés vegano con patatas y judías verdes", "it": "Pesto alla genovese vegano con patate e fagiolini", "en": "Vegan Genoese pesto with potatoes and green beans", "fr": "Pesto génois végétalien avec pommes de terre et haricots verts", "de": "Veganes Pesto alla Genovese mit Kartoffeln und grünen Bohnen" }
+    },
+    "maccheroni-spaghetti-o-paccheri-con-6": {
+      "name": { "es": "Maccheroni, spaghetti o paccheri con", "it": "Maccheroni, spaghetti o paccheri con", "en": "Maccheroni, spaghetti or paccheri with", "fr": "Maccheroni, spaghetti ou paccheri avec", "de": "Maccheroni, Spaghetti oder Paccheri mit" },
+      "description": { "es": "verduras variadas, setas y espárragos", "it": "verdure miste, funghi e asparagi", "en": "mixed vegetables, mushrooms and asparagus", "fr": "légumes variés, champignons et asperges", "de": "gemischtes Gemüse, Pilze und Spargel" }
+    },
+    "maccheroni-spaghetti-o-paccheri-con-7": {
+      "name": { "es": "Maccheroni, spaghetti o paccheri con", "it": "Maccheroni, spaghetti o paccheri con", "en": "Maccheroni, spaghetti or paccheri with", "fr": "Maccheroni, spaghetti ou paccheri avec", "de": "Maccheroni, Spaghetti oder Paccheri mit" },
+      "description": { "es": "Puttanesca: aceitunas, alcaparras, salsa de tomate y albahaca", "it": "Puttanesca: olive, capperi, salsa di pomodoro e basilico", "en": "Puttanesca: olives, capers, tomato sauce and basil", "fr": "Puttanesca : olives, câpres, sauce tomate et basilic", "de": "Puttanesca: Oliven, Kapern, Tomatensauce und Basilikum" }
+    },
+    "tris-di-contorni": {
+      "name": { "es": "Trío de guarniciones", "it": "Tris di contorni", "en": "Trio of side dishes", "fr": "Triple accompagnement", "de": "Drei Beilagen" },
+      "description": { "es": "Espinacas con aceite de oliva y ajo, patatas fritas de verdad con romero y sal gorda, verduras salteadas con especias mediterráneas", "it": "Spinaci con olio d'oliva e aglio, Patate vere fritte con rosmarino e sale grosso, Verdure saltate con spezie mediterranee", "en": "Spinach with olive oil and garlic, real fried potatoes with rosemary and coarse salt, vegetables sautéed with Mediterranean spices", "fr": "Épinards à l'huile d'olive et à l'ail, vraies frites au romarin et gros sel, légumes sautés aux épices méditerranéennes", "de": "Spinat mit Olivenöl und Knoblauch, echte Bratkartoffeln mit Rosmarin und grobem Salz, sautiertes Gemüse mit mediterranen Gewürzen" }
+    },
+    "dolce": {
+      "name": { "es": "Postre", "it": "Dolce", "en": "Dessert", "fr": "Dessert", "de": "Dessert" },
+      "description": { "es": "Ikebana de fruta fresca", "it": "Ikebana di frutta fresca", "en": "Ikebana of fresh fruit", "fr": "Ikebana de fruits frais", "de": "Ikebana mit frischem Obst" }
+    },
+    "vegan-sweet-calzone": {
+      "name": { "es": "CALZONE DULCE VEGANO", "it": "VEGAN SWEET CALZONE", "en": "VEGAN SWEET CALZONE", "fr": "CALZONE SUCRÉ VÉGÉTALIEN", "de": "VEGANER SÜSSER CALZONE" },
+      "description": { "es": "mini calzone frito dulce con queso vegano y fruta fresca", "it": "mini calzone fritto dolce con formaggio vegano e frutta fresca", "en": "mini fried sweet calzone with vegan cheese and fresh fruit", "fr": "mini calzone frit sucré au fromage végétal et fruits frais", "de": "mini frittierter süßer Calzone mit veganem Käse und frischem Obst" }
+    }
+  }
+}

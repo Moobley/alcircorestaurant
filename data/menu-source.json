@@ -1,0 +1,1998 @@
+{
+    "categories": [
+        {
+            "id": "antipasti",
+            "name_it": "Antipasti",
+            "items": [
+                {
+                    "id": "antipasto-toscano",
+                    "name_it": "Antipasto Toscano",
+                    "description_it": "Selezione di salumi e formaggi italiani con marmellate...",
+                    "price": 32,
+                    "priceFrom": false,
+                    "image": "10.jpg"
+                },
+                {
+                    "id": "il-nostro-vitel-tonne",
+                    "name_it": "Il nostro vitel tonnè",
+                    "description_it": "arrosto di maiale con salsa tonnata e grissini artigianali...",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "80.jpg"
+                },
+                {
+                    "id": "carpaccio-di-bresaola",
+                    "name_it": "Carpaccio di bresaola",
+                    "description_it": "con burrata, rucola, grana, pomodorini e citronette",
+                    "price": 20,
+                    "priceFrom": false,
+                    "image": "30.jpg"
+                },
+                {
+                    "id": "tartar-di-manzo-del-giorno",
+                    "name_it": "Tartar di manzo del giorno",
+                    "description_it": "",
+                    "price": 20,
+                    "priceFrom": false,
+                    "image": "40.jpg"
+                },
+                {
+                    "id": "parmigiana-di-melanzane",
+                    "name_it": "Parmigiana di Melanzane",
+                    "description_it": "Ricetta siciliana di Giovanna, madre di Gabriele",
+                    "price": 14,
+                    "priceFrom": false,
+                    "image": "60.jpg"
+                },
+                {
+                    "id": "bruschetta",
+                    "name_it": "Bruschetta",
+                    "description_it": "pane tostato, aglio, pomodoro fresco, basilico",
+                    "price": 7.5,
+                    "priceFrom": false,
+                    "image": "bruschetta.jpg"
+                },
+                {
+                    "id": "gamberi-con-cipolla-agrodolce-basilico-pinoli",
+                    "name_it": "Gamberi con cipolla agrodolce, basilico, pinoli",
+                    "description_it": "Ricetta originale della Tina, mamma di Alessia",
+                    "price": 18,
+                    "priceFrom": false,
+                    "image": "70.jpg"
+                },
+                {
+                    "id": "insalata-caprese",
+                    "name_it": "Insalata Caprese",
+                    "description_it": "pomodoro, mozzarella di bufala, basilico",
+                    "price": 12.5,
+                    "priceFrom": false,
+                    "image": "100.jpg"
+                },
+                {
+                    "id": "cozze-al-vino-bianco",
+                    "name_it": "Cozze al vino bianco",
+                    "description_it": "Cozze al vino bianco, aglio e prezzemolo",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "logo.jpg"
+                },
+                {
+                    "id": "focazzone",
+                    "name_it": "Focazzone",
+                    "description_it": "calzone con mozzarella, prosciutto crudo, olive",
+                    "price": 14,
+                    "priceFrom": false,
+                    "image": "175.jpg"
+                }
+            ]
+        },
+        {
+            "id": "insalate",
+            "name_it": "Insalate",
+            "items": [
+                {
+                    "id": "insalata-clown-tonno",
+                    "name_it": "Insalata Clown Tonno",
+                    "description_it": "Insalata mista con tonno, olive e capperi grandi",
+                    "price": 14,
+                    "priceFrom": false,
+                    "image": "110.jpg"
+                },
+                {
+                    "id": "insalata-clown-gamberi",
+                    "name_it": "Insalata Clown Gamberi",
+                    "description_it": "Insalata mista con gamberi e mela",
+                    "price": 16,
+                    "priceFrom": false,
+                    "image": "110.jpg"
+                },
+                {
+                    "id": "insalata-clown-pollo",
+                    "name_it": "Insalata Clown Pollo",
+                    "description_it": "Insalata mista con pollo, sedano e scaglie di grana padano",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "110.jpg"
+                },
+                {
+                    "id": "insalata-clown-di-verdure",
+                    "name_it": "Insalata clown di verdure",
+                    "description_it": "Insalata mista con verdure",
+                    "price": 12,
+                    "priceFrom": false,
+                    "image": "Vegan.jpg"
+                },
+                {
+                    "id": "insalata-belley-sister",
+                    "name_it": "Insalata Belley Sister",
+                    "description_it": "Valeriana, burrata, gamberi e riduzione di fragole",
+                    "price": 17,
+                    "priceFrom": false,
+                    "image": "120.jpg"
+                }
+            ]
+        },
+        {
+            "id": "pani",
+            "name_it": "I Pani Fatti in Casa",
+            "items": [
+                {
+                    "id": "focaccia-al-rosmarino",
+                    "name_it": "Focaccia al rosmarino",
+                    "description_it": "",
+                    "price": 5.5,
+                    "priceFrom": false,
+                    "image": "focacciarosmarimo.jpg"
+                },
+                {
+                    "id": "focaccia-altea-con-aglio-e-mozzarella",
+                    "name_it": "Focaccia ALTEA con aglio e mozzarella",
+                    "description_it": "Focaccia ALTEA con aglio e mozzarella",
+                    "price": 6.5,
+                    "priceFrom": false,
+                    "image": "logo.jpg"
+                },
+                {
+                    "id": "focaccia-rossa",
+                    "name_it": "Focaccia rossa",
+                    "description_it": "salsa di pomodoro, aglio e origano",
+                    "price": 6,
+                    "priceFrom": false,
+                    "image": "focacciarossa.jpg"
+                },
+                {
+                    "id": "focaccia-tricolore",
+                    "name_it": "Focaccia tricolore",
+                    "description_it": "salsa di pomodoro, mozzarella e salsa verde. Disponibile...",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "170.jpg"
+                },
+                {
+                    "id": "focaccia-al-lardo",
+                    "name_it": "Focaccia al lardo",
+                    "description_it": "lardo di Colonnata pomodorini e rosmarino",
+                    "price": 10,
+                    "priceFrom": false,
+                    "image": "180.jpg"
+                },
+                {
+                    "id": "cestino-di-pane-sciocco-toscano-fatto-in-casa",
+                    "name_it": "Cestino di pane sciocco toscano fatto in casa",
+                    "description_it": "",
+                    "price": 3.5,
+                    "priceFrom": false,
+                    "image": "190.jpg"
+                },
+                {
+                    "id": "pane-e-olive-aromatizzate",
+                    "name_it": "Pane e olive aromatizzate",
+                    "description_it": "",
+                    "price": 5,
+                    "priceFrom": false,
+                    "image": "200.jpg"
+                }
+            ]
+        },
+        {
+            "id": "dolci",
+            "name_it": "Dolci Fatti in Casa",
+            "items": [
+                {
+                    "id": "calzone-dolce-lactose-free",
+                    "name_it": "CALZONE DOLCE LACTOSE FREE",
+                    "description_it": "Mini calzone fritto ripieno di frutta fresca e formaggio...",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "logo.jpg"
+                },
+                {
+                    "id": "tagliere-di-formaggi",
+                    "name_it": "Tagliere di formaggi",
+                    "description_it": "con fantasia di miele e marmellate",
+                    "price": 12,
+                    "priceFrom": false,
+                    "image": "selezioneformaggi.jpg"
+                },
+                {
+                    "id": "tiramisu",
+                    "name_it": "Tiramisù",
+                    "description_it": "",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "910new.jpg"
+                },
+                {
+                    "id": "torta-di-mele",
+                    "name_it": "Torta di mele",
+                    "description_it": "con cannella e caramello",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "tortamele.jpg"
+                },
+                {
+                    "id": "salame-di-cioccolato",
+                    "name_it": "Salame di cioccolato",
+                    "description_it": "",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "920.jpg"
+                },
+                {
+                    "id": "panna-cotta",
+                    "name_it": "Panna Cotta",
+                    "description_it": "cioccolato, caramello o riduzione di frutta fresca",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "930.jpg"
+                },
+                {
+                    "id": "focaccia-con-nutella",
+                    "name_it": "Focaccia con nutella",
+                    "description_it": "Un dolce sfizio da condividere",
+                    "price": 11,
+                    "priceFrom": false,
+                    "image": "focaccia-nutella.jpg"
+                },
+                {
+                    "id": "gelato",
+                    "name_it": "Gelato",
+                    "description_it": "",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "logo.jpg"
+                },
+                {
+                    "id": "frutta-fresca",
+                    "name_it": "Frutta fresca",
+                    "description_it": "",
+                    "price": 10,
+                    "priceFrom": false,
+                    "image": "frutta_menu_1.jpg"
+                },
+                {
+                    "id": "affogato",
+                    "name_it": "Affogato",
+                    "description_it": "",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "990.jpg"
+                }
+            ]
+        },
+        {
+            "id": "menu-bambini",
+            "name_it": "Menu Bambini",
+            "items": [
+                {
+                    "id": "pizza-margherita",
+                    "name_it": "Pizza Margherita",
+                    "description_it": "Pizza Margherita",
+                    "price": 10,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "pizza-cotto",
+                    "name_it": "Pizza Cotto",
+                    "description_it": "Pizza cotto",
+                    "price": 10,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "pasta-bolognese",
+                    "name_it": "Pasta Bolognese",
+                    "description_it": "Pasta Bolognese",
+                    "price": 10,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "pasta-napoli",
+                    "name_it": "Pasta Napoli",
+                    "description_it": "Pasta pomodoro",
+                    "price": 10,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "pollo-milanese",
+                    "name_it": "Pollo Milanese",
+                    "description_it": "Pollo Milanese con patate fritte",
+                    "price": 10,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                }
+            ]
+        },
+        {
+            "id": "menu-vegano",
+            "name_it": "Menù Vegano",
+            "items": [
+                {
+                    "id": "la-pizza-vegana-piu-buona-del-mondo",
+                    "name_it": "LA PIZZA VEGANA PIÙ BUONA DEL MONDO",
+                    "description_it": "Zucchini, rucola, pomodorini, funghi porcini, vegan mozzarella, vegan parmigiano",
+                    "price": 18,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "melanzane-con-parmigiana-vegana",
+                    "name_it": "Melanzane con parmigiana vegana",
+                    "description_it": "con mozzarella di latte di riso",
+                    "price": 14,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "crema-di-pomodoro",
+                    "name_it": "Crema di pomodoro",
+                    "description_it": "con basilico e crostini di pane casereccio all'aglio",
+                    "price": 8.5,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "bruschetta-2",
+                    "name_it": "Bruschetta",
+                    "description_it": "",
+                    "price": 6.5,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "focaccia-al-rosmarino-2",
+                    "name_it": "Focaccia al rosmarino",
+                    "description_it": "",
+                    "price": 5,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "focaccia-rossa-2",
+                    "name_it": "Focaccia rossa",
+                    "description_it": "",
+                    "price": 6.5,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "pane-fatto-in-casa",
+                    "name_it": "Pane fatto in casa",
+                    "description_it": "con olive condite",
+                    "price": 5,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "insalata-clown-di-verdure-2",
+                    "name_it": "Insalata clown di verdure,",
+                    "description_it": "",
+                    "price": 12,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "pizza-con-ingredienti-a-scelta-e-mozzarella-vegana-di-riso",
+                    "name_it": "Pizza con ingredienti a Scelta e mozzarella vegana di riso",
+                    "description_it": "Il prezzo cambia in base agli ingredienti scelti",
+                    "price": null,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "maccheroni-spaghetti-o-paccheri-con",
+                    "name_it": "Maccheroni, spaghetti o paccheri con",
+                    "description_it": "salsa di pomodoro",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "maccheroni-spaghetti-o-paccheri-con-2",
+                    "name_it": "Maccheroni, spaghetti o paccheri con",
+                    "description_it": "Arrabbiata",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "maccheroni-spaghetti-o-paccheri-con-3",
+                    "name_it": "Maccheroni, spaghetti o paccheri con",
+                    "description_it": "Funghi porcini",
+                    "price": 17,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "maccheroni-spaghetti-o-paccheri-con-4",
+                    "name_it": "Maccheroni, spaghetti o paccheri con",
+                    "description_it": "Funghi porcini al tartufo",
+                    "price": 19,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "maccheroni-spaghetti-o-paccheri-con-5",
+                    "name_it": "Maccheroni, spaghetti o paccheri con",
+                    "description_it": "Pesto alla genovese vegano con patate e fagiolini",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "maccheroni-spaghetti-o-paccheri-con-6",
+                    "name_it": "Maccheroni, spaghetti o paccheri con",
+                    "description_it": "verdure miste, funghi e asparagi",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "maccheroni-spaghetti-o-paccheri-con-7",
+                    "name_it": "Maccheroni, spaghetti o paccheri con",
+                    "description_it": "Puttanesca: olive, capperi, salsa di pomodoro e basilico",
+                    "price": 15,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "tris-di-contorni",
+                    "name_it": "Tris di contorni",
+                    "description_it": "Spinaci con olio d'oliva e aglio, Patate vere fritte con rosmarino e sale grosso, Verdure saltate con spezie mediterranee",
+                    "price": 14,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "dolce",
+                    "name_it": "Dolce",
+                    "description_it": "Ikebana di frutta fresca",
+                    "price": 8,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                },
+                {
+                    "id": "vegan-sweet-calzone",
+                    "name_it": "VEGAN SWEET CALZONE",
+                    "description_it": "mini calzone fritto dolce con formaggio vegano e frutta fresca",
+                    "price": 7.5,
+                    "priceFrom": false,
+                    "image": "placeholder.png"
+                }
+            ]
+        },
+        {
+            "id": "primi",
+            "name_it": "Primi Piatti",
+            "subcategories": [
+                {
+                    "id": "paste",
+                    "name_it": "Paste",
+                    "items": [
+                        {
+                            "id": "spaghetti-alla-carbonara",
+                            "name_it": "Spaghetti alla carbonara",
+                            "description_it": "spaghetti Rummo con guanciale, uovo, pepe e pecorino romano",
+                            "price": 18,
+                            "priceFrom": false,
+                            "image": "carbonaranew.jpg"
+                        },
+                        {
+                            "id": "spaghetti-allo-scoglio-di-mamma-tina",
+                            "name_it": "Spaghetti allo scoglio di mamma Tina",
+                            "description_it": "spaghetti Rummo con aglio, cozze, vongole, calamari...",
+                            "price": 24,
+                            "priceFrom": false,
+                            "image": "240.jpg"
+                        },
+                        {
+                            "id": "risotto-ai-porcini",
+                            "name_it": "Risotto ai porcini",
+                            "description_it": "Disponibile con Tartufo € 21,00",
+                            "price": 19.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "tagliolini-al-salmone-fresco",
+                            "name_it": "Tagliolini al salmone fresco",
+                            "description_it": "con pomodorini e burrata",
+                            "price": 19,
+                            "priceFrom": false,
+                            "image": "265.jpg"
+                        },
+                        {
+                            "id": "tordelli-viareggini",
+                            "name_it": "Tordelli viareggini",
+                            "description_it": "Ravioli di carne con ragù toscano rosso",
+                            "price": 20,
+                            "priceFrom": false,
+                            "image": "270.jpg"
+                        },
+                        {
+                            "id": "lasagna-di-carne",
+                            "name_it": "Lasagna di carne",
+                            "description_it": "Ispirata alla ricetta della bisnonna modenese Giuseppina...",
+                            "price": 16,
+                            "priceFrom": false,
+                            "image": "280.jpg"
+                        },
+                        {
+                            "id": "corzetti-di-chiavari",
+                            "name_it": "Corzetti di Chiavari",
+                            "description_it": "Peculiare pasta fresca con olio di oliva e vino bianco...",
+                            "price": 17,
+                            "priceFrom": false,
+                            "image": "290.jpg"
+                        },
+                        {
+                            "id": "pappardelle-ai-porcini",
+                            "name_it": "Pappardelle ai porcini",
+                            "description_it": "Disponibili anche con tartufo € 20,00",
+                            "price": 18,
+                            "priceFrom": false,
+                            "image": "310.jpg"
+                        },
+                        {
+                            "id": "ignudi-dell-isola-d-elba",
+                            "name_it": "IGNUDI DELL'ISOLA D'ELBA",
+                            "description_it": "Ignudi di ricotta e spinaci burro e salvia",
+                            "price": 16,
+                            "priceFrom": false,
+                            "image": "320.jpg"
+                        },
+                        {
+                            "id": "gnocchi-alla-sorrentina",
+                            "name_it": "Gnocchi alla sorrentina",
+                            "description_it": "Gnocchi di patate al pomodoro con mozzarella di bufala...",
+                            "price": 15,
+                            "priceFrom": false,
+                            "image": "330.jpg"
+                        },
+                        {
+                            "id": "tagliolini-gamberi-e-zenzero",
+                            "name_it": "Tagliolini gamberi e zenzero",
+                            "description_it": "",
+                            "price": 18,
+                            "priceFrom": false,
+                            "image": "tagliolionigamberi.jpg"
+                        },
+                        {
+                            "id": "ravioli-di-pesce",
+                            "name_it": "Ravioli di pesce",
+                            "description_it": "",
+                            "price": 22,
+                            "priceFrom": false,
+                            "image": "350.jpg"
+                        },
+                        {
+                            "id": "pasta-fresca",
+                            "name_it": "Pasta fresca",
+                            "description_it": "con: Ragù, pomodoro, Arrabbiata, o pesto alla genovese",
+                            "price": 16,
+                            "priceFrom": false,
+                            "image": "360.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "secondi-piatti",
+            "name_it": "Secondi Piatti",
+            "subcategories": [
+                {
+                    "id": "secondi",
+                    "name_it": "Secondi Piatti",
+                    "items": [
+                        {
+                            "id": "tagliata-di-controfiletto-di-manzo",
+                            "name_it": "Tagliata di controfiletto di manzo",
+                            "description_it": "con rucola, scaglie di grana e riduzione di aceto balsamico",
+                            "price": 27,
+                            "priceFrom": false,
+                            "image": "370.jpg"
+                        },
+                        {
+                            "id": "tagliata-di-controfiletto-di-manzo-taleggio-e-tartufo",
+                            "name_it": "Tagliata di controfiletto di manzo, taleggio e tartufo",
+                            "description_it": "",
+                            "price": 29,
+                            "priceFrom": false,
+                            "image": "380.jpg"
+                        },
+                        {
+                            "id": "millefoglie-di-pollo-con-fonduta-di-taleggio-e-porcini",
+                            "name_it": "Millefoglie di pollo con fonduta di taleggio e porcini",
+                            "description_it": "",
+                            "price": 19.5,
+                            "priceFrom": false,
+                            "image": "410.jpg"
+                        },
+                        {
+                            "id": "salmone",
+                            "name_it": "Salmone",
+                            "description_it": "con verdure saltate e salsa al mascarpone e limone",
+                            "price": 22,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "tataki-di-tonno-fresco",
+                            "name_it": "Tataki di tonno fresco",
+                            "description_it": "in crosta di pistacchi, cipolla rossa agrodolce e riduzione...",
+                            "price": 24.5,
+                            "priceFrom": false,
+                            "image": "430.jpg"
+                        },
+                        {
+                            "id": "saltimbocca-alla-romana",
+                            "name_it": "Saltimbocca alla romana",
+                            "description_it": "Manzo, prosciutto crudo e salvia",
+                            "price": 22,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "pescato-del-giorno",
+                            "name_it": "Pescato del giorno",
+                            "description_it": "",
+                            "price": 24,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "fritto-misto-di-calamari-gamberi-verdurine-e-pesce",
+                            "name_it": "Fritto misto di calamari, gamberi, verdurine e pesce",
+                            "description_it": "",
+                            "price": 22,
+                            "priceFrom": false,
+                            "image": "450.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "contorni",
+                    "name_it": "Contorni",
+                    "items": [
+                        {
+                            "id": "insalata-rucola-e-parmigano",
+                            "name_it": "Insalata Rucola e Parmigano",
+                            "description_it": "Insalata Rucola e Parmigano",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "insalatina-mista-o-verde",
+                            "name_it": "Insalatina mista o verde",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "470.jpg"
+                        },
+                        {
+                            "id": "patate-vere-fritte-con-sale-grosso-e-rosmarino",
+                            "name_it": "Patate vere fritte con sale grosso e rosmarino",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "480.jpg"
+                        },
+                        {
+                            "id": "verdure-di-stagione-saltate",
+                            "name_it": "Verdure di stagione saltate",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "spinaci-saltati-burro-e-aglio",
+                            "name_it": "Spinaci saltati burro e aglio",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pizze",
+            "name_it": "Le Pizze",
+            "subcategories": [
+                {
+                    "id": "pizze-artigianali",
+                    "name_it": "Pizze Artigianali",
+                    "items": [
+                        {
+                            "id": "prada",
+                            "name_it": "PRADA",
+                            "description_it": "Melanzane fritte, grana e basilico",
+                            "price": 15,
+                            "priceFrom": false,
+                            "image": "prada.png"
+                        },
+                        {
+                            "id": "margherita",
+                            "name_it": "Margherita",
+                            "description_it": "pomodoro, mozzarella, basilico",
+                            "price": 9.5,
+                            "priceFrom": false,
+                            "image": "margherita.jpg"
+                        },
+                        {
+                            "id": "regina-margherita",
+                            "name_it": "Regina Margherita",
+                            "description_it": "pomodoro, mozzarella fresca, basilico",
+                            "price": 12,
+                            "priceFrom": false,
+                            "image": "500.jpg"
+                        },
+                        {
+                            "id": "la-pizza-piu-buona-del-mondo",
+                            "name_it": "La pizza piú buona del mondo",
+                            "description_it": "Crudo, porcini, rucola, pomodoro fresco e grana a scaglie",
+                            "price": 18,
+                            "priceFrom": false,
+                            "image": "740.jpg"
+                        },
+                        {
+                            "id": "maialona",
+                            "name_it": "Maialona",
+                            "description_it": "cotto, pancetta arrotolata, salamino e salsiccia",
+                            "price": 16.5,
+                            "priceFrom": false,
+                            "image": "700.jpg"
+                        },
+                        {
+                            "id": "les-tres-francescos",
+                            "name_it": "Les tres Francescos",
+                            "description_it": "pomodoro, mozzarella, 'nduja, spinaci, uovo",
+                            "price": 17.5,
+                            "priceFrom": false,
+                            "image": "lestresfrancesco.jpg"
+                        },
+                        {
+                            "id": "orchidea",
+                            "name_it": "Orchidea",
+                            "description_it": "pomodoro, mozzarella di bufala, basilico",
+                            "price": 14,
+                            "priceFrom": false,
+                            "image": "510.jpg"
+                        },
+                        {
+                            "id": "napoli",
+                            "name_it": "Napoli",
+                            "description_it": "capperi, acciughe e aglio",
+                            "price": 13,
+                            "priceFrom": false,
+                            "image": "520.jpg"
+                        },
+                        {
+                            "id": "cotto",
+                            "name_it": "Cotto",
+                            "description_it": "prosciutto cotto",
+                            "price": 12.5,
+                            "priceFrom": false,
+                            "image": "pizzacotto.jpg"
+                        },
+                        {
+                            "id": "cotto-e-funghi",
+                            "name_it": "Cotto e funghi",
+                            "description_it": "Cotto e funghi",
+                            "price": 14,
+                            "priceFrom": false,
+                            "image": "540.jpg"
+                        },
+                        {
+                            "id": "capricciosa",
+                            "name_it": "Capricciosa",
+                            "description_it": "cotto, funghi, carciofini, olive e capperi",
+                            "price": 16.5,
+                            "priceFrom": false,
+                            "image": "550.jpg"
+                        },
+                        {
+                            "id": "4-stagioni",
+                            "name_it": "4 Stagioni",
+                            "description_it": "cotto, funghi, carciofini, olive",
+                            "price": 16,
+                            "priceFrom": false,
+                            "image": "4-stagioni.jpg"
+                        },
+                        {
+                            "id": "quattro-formaggi-italiani",
+                            "name_it": "Quattro formaggi italiani",
+                            "description_it": "",
+                            "price": 15.5,
+                            "priceFrom": false,
+                            "image": "pizza4formaggi.jpg"
+                        },
+                        {
+                            "id": "diavola",
+                            "name_it": "Diavola",
+                            "description_it": "salamino piccante",
+                            "price": 13.5,
+                            "priceFrom": false,
+                            "image": "580.jpg"
+                        },
+                        {
+                            "id": "malafemmena",
+                            "name_it": "Malafemmena",
+                            "description_it": "Crema di zucca, taleggio, 'nduja, pancetta arrotolata...",
+                            "price": 16.5,
+                            "priceFrom": false,
+                            "image": "malafemmina.jpg"
+                        },
+                        {
+                            "id": "signora",
+                            "name_it": "Signora",
+                            "description_it": "Prosciutto crudo",
+                            "price": 15,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "timanfaya",
+                            "name_it": "Timanfaya",
+                            "description_it": "aglio, peperoncino, peperone, tabasco",
+                            "price": 12,
+                            "priceFrom": false,
+                            "image": "timanfaya.jpg"
+                        },
+                        {
+                            "id": "speck-e-gorgonzola",
+                            "name_it": "Speck e gorgonzola",
+                            "description_it": "",
+                            "price": 15,
+                            "priceFrom": false,
+                            "image": "610.jpg"
+                        },
+                        {
+                            "id": "speck-e-mascarpone",
+                            "name_it": "Speck e mascarpone",
+                            "description_it": "",
+                            "price": 15,
+                            "priceFrom": false,
+                            "image": "620.jpg"
+                        },
+                        {
+                            "id": "olga",
+                            "name_it": "Olga",
+                            "description_it": "Speck, gorgonzola e porcini",
+                            "price": 16,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "pescatora",
+                            "name_it": "Pescatora",
+                            "description_it": "tonno e cipolla",
+                            "price": 13.5,
+                            "priceFrom": false,
+                            "image": "640.jpg"
+                        },
+                        {
+                            "id": "vegetariana",
+                            "name_it": "Vegetariana",
+                            "description_it": "peperoni, melanzane, zucchine e carciofini",
+                            "price": 14.5,
+                            "priceFrom": false,
+                            "image": "650.jpg"
+                        },
+                        {
+                            "id": "frutti-di-mare",
+                            "name_it": "Frutti di mare",
+                            "description_it": "cozze, vongole, gamberi, calamari, aglio e prezzemolo",
+                            "price": 18,
+                            "priceFrom": false,
+                            "image": "660.jpg"
+                        },
+                        {
+                            "id": "maremonti",
+                            "name_it": "Maremonti",
+                            "description_it": "calzonpizza con cotto, funghi, cozze e gamberi",
+                            "price": 16.5,
+                            "priceFrom": false,
+                            "image": "670.jpg"
+                        },
+                        {
+                            "id": "golosa",
+                            "name_it": "Golosa",
+                            "description_it": "salciccia e spinaci",
+                            "price": 14.5,
+                            "priceFrom": false,
+                            "image": "680.jpg"
+                        },
+                        {
+                            "id": "equilibrista",
+                            "name_it": "Equilibrista",
+                            "description_it": "gamberi e zucchini",
+                            "price": 14.5,
+                            "priceFrom": false,
+                            "image": "690.jpg"
+                        },
+                        {
+                            "id": "jean-from-paris",
+                            "name_it": "Jean from Paris",
+                            "description_it": "salmone, mascarpone e rucola",
+                            "price": 17.5,
+                            "priceFrom": false,
+                            "image": "710.jpg"
+                        },
+                        {
+                            "id": "valtellina",
+                            "name_it": "Valtellina",
+                            "description_it": "bresaola, rucola e grana a scaglie",
+                            "price": 19,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "covaccini",
+                    "name_it": "Covaccini Artigianali",
+                    "items": [
+                        {
+                            "id": "lidia",
+                            "name_it": "LIDIA",
+                            "description_it": "zucchine, spinaci, pomodorini, prosciutto crudo",
+                            "price": 16.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "il-covaccino-piu-buono-del-mondo",
+                            "name_it": "Il Covaccino più buono del mondo",
+                            "description_it": "Crudo, porcini, rucola, pomodoro fresco e grana a scaglie",
+                            "price": 18,
+                            "priceFrom": false,
+                            "image": "covaccino-mas-rico.jpg"
+                        },
+                        {
+                            "id": "charly",
+                            "name_it": "Charly",
+                            "description_it": "melanzane, porro, mascarpone, pomodorini, basilico e grana",
+                            "price": 15.5,
+                            "priceFrom": false,
+                            "image": "750.jpg"
+                        },
+                        {
+                            "id": "astrapparadicchio",
+                            "name_it": "Astrapparadicchio",
+                            "description_it": "taleggio, salsiccia e radicchio",
+                            "price": 16,
+                            "priceFrom": false,
+                            "image": "covaastra.jpg"
+                        },
+                        {
+                            "id": "la-zoccolona",
+                            "name_it": "La Zoccolona",
+                            "description_it": "Salsiccia, Burrata, Rucola",
+                            "price": 17.5,
+                            "priceFrom": false,
+                            "image": "zoccolona.jpg"
+                        },
+                        {
+                            "id": "cinghialotta",
+                            "name_it": "Cinghialotta",
+                            "description_it": "Mortadella, tartufo, pecorino toscano dolce e crema...",
+                            "price": 19.5,
+                            "priceFrom": false,
+                            "image": "cinghialotta2.jpg"
+                        },
+                        {
+                            "id": "imperatrice",
+                            "name_it": "Imperatrice",
+                            "description_it": "uovo, asparagi e crema di tartufo nero",
+                            "price": 19,
+                            "priceFrom": false,
+                            "image": "imperatrice.jpg"
+                        },
+                        {
+                            "id": "snob",
+                            "name_it": "Snob",
+                            "description_it": "Crudo e carciofini",
+                            "price": 15.5,
+                            "priceFrom": false,
+                            "image": "covaccinosnob.jpg"
+                        },
+                        {
+                            "id": "5-formaggi-italiani",
+                            "name_it": "5 formaggi italiani",
+                            "description_it": "5 formaggi italiani",
+                            "price": 16.5,
+                            "priceFrom": false,
+                            "image": "covaccino5formaggi.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "calzoni",
+                    "name_it": "Calzoni Artigianali",
+                    "items": [
+                        {
+                            "id": "al-prosciutto-cotto",
+                            "name_it": "Al prosciutto cotto",
+                            "description_it": "",
+                            "price": 12.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "cotto-e-funghi-2",
+                            "name_it": "Cotto e funghi",
+                            "description_it": "",
+                            "price": 13,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "porcavacca",
+                            "name_it": "PorcaVacca",
+                            "description_it": "cotto, porcini e 4 formaggi",
+                            "price": 15.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "ricotta-e-spinaci",
+                            "name_it": "Ricotta e spinaci",
+                            "description_it": "cotto, ricotta e spinaci",
+                            "price": 14,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        }
+                    ]
+                },
+                {
+                    "id": "ingredienti-extra",
+                    "name_it": "Ingredienti Extra",
+                    "items": [
+                        {
+                            "id": "ingredienti-classici",
+                            "name_it": "Ingredienti classici",
+                            "description_it": "",
+                            "price": 2,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "gamberi",
+                            "name_it": "Gamberi",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "frutti-di-mare-2",
+                            "name_it": "Frutti di mare",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "affettati",
+                            "name_it": "Affettati",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "formaggi",
+                            "name_it": "Formaggi",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "rucola",
+                            "name_it": "Rucola",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "funghi-porcini",
+                            "name_it": "Funghi porcini",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "uovo",
+                            "name_it": "Uovo",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "doppia-mozzarella-mozzarella-fresca",
+                            "name_it": "Doppia mozzarella, mozzarella fresca",
+                            "description_it": "",
+                            "price": 3,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "mozzarella-di-bufala",
+                            "name_it": "Mozzarella di bufala",
+                            "description_it": "",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        },
+                        {
+                            "id": "bresaola",
+                            "name_it": "Bresaola",
+                            "description_it": "",
+                            "price": 4.5,
+                            "priceFrom": false,
+                            "image": "placeholder.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "vini",
+            "name_it": "Vini",
+            "subcategories": [
+                {
+                    "id": "bicchiere",
+                    "name_it": "Bicchiere",
+                    "items": [
+                        {
+                            "id": "remole-bianco-toscana-frescobaldi-new",
+                            "name_it": "Remole Bianco (Toscana) - Frescobaldi **NEW**",
+                            "description_it": "Remole bianco 2021 si presenta di colore giallo paglierino chiaro. Al naso prevalgono frutti delicati come la mela golden e il melone invernale, oltre a note di frutti esotici come la carambola. Floreale con sentori di glicine e ginestra. Al palato è fresco e sapido.",
+                            "price": 8,
+                            "priceFrom": false,
+                            "image": "sdgfsdf.JPG"
+                        },
+                        {
+                            "id": "chardonnay-bordinese",
+                            "name_it": "Chardonnay Bordinese",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": true,
+                            "image": "Bordinese_terre_di_chieti.jpg"
+                        },
+                        {
+                            "id": "sauvignon-borgo-conventi",
+                            "name_it": "Sauvignon - Borgo Conventi",
+                            "description_it": "",
+                            "price": 8.5,
+                            "priceFrom": false,
+                            "image": "sauvignon_isonzo_del_friuli.jpg"
+                        },
+                        {
+                            "id": "il-pumo-negramaro-san-marzano",
+                            "name_it": "Il Pumo Negramaro - San Marzano",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "Negroamaro.jpg"
+                        },
+                        {
+                            "id": "remole-rosso-toscana-frescobaldi-new",
+                            "name_it": "Remole Rosso (Toscana) - Frescobaldi **NEW*",
+                            "description_it": "Remole Rosso 2021 si presenta con un bel colore rosso porpora. Al naso si manifesta con il suo carattere fruttato, con intensi sentori di frutti rossi e neri, piccoli frutti di bosco come mirtillo, ribes, lampone e frutti maturi come prugna e ciliegia.",
+                            "price": 8,
+                            "priceFrom": false,
+                            "image": "r451.JPG"
+                        },
+                        {
+                            "id": "montepulciano-bordinese",
+                            "name_it": "Montepulciano - Bordinese",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": true,
+                            "image": "Bordinese_Montepulciano_abruzzo.jpg"
+                        },
+                        {
+                            "id": "chianti-castello-di-selvole",
+                            "name_it": "Chianti - castello di Selvole",
+                            "description_it": "",
+                            "price": 7.5,
+                            "priceFrom": false,
+                            "image": "Chianti_classico_villa_del_colombaio.jpg"
+                        },
+                        {
+                            "id": "rioja-750-ml-marques-de-altillo",
+                            "name_it": "Rioja 750 ml - Marqués de Altillo",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "Marques_de_altillo.jpg"
+                        },
+                        {
+                            "id": "bardolino-rosato-santa-sofia",
+                            "name_it": "Bardolino Rosato - Santa Sofía",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "bardolino.jpg"
+                        },
+                        {
+                            "id": "prosecco-d-o-c-treviso-brut-dal-bello",
+                            "name_it": "Prosecco D.O.C. Treviso Brut - dal Bello",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "Brut_Prosecco_del_Treviso.jpg"
+                        },
+                        {
+                            "id": "lambrusco-rosso-primabolla",
+                            "name_it": "Lambrusco Rosso Primabolla",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "lambrusco.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "vino-bianco",
+                    "name_it": "Vino Bianco",
+                    "items": [
+                        {
+                            "id": "chardonnay-bordinese-2",
+                            "name_it": "Chardonnay Bordinese",
+                            "description_it": "",
+                            "price": 20,
+                            "priceFrom": false,
+                            "image": "Bordinese_terre_di_chieti.jpg"
+                        },
+                        {
+                            "id": "remole-toscana-frescobaldi",
+                            "name_it": "Remole (Toscana) - Frescobaldi",
+                            "description_it": "Remole bianco 2021 si presenta di colore giallo paglierino chiaro. Al naso prevalgono frutti delicati come la mela golden e il melone invernale, oltre a note di frutti esotici come la carambola. Floreale con sentori di glicine e ginestra. Al palato è fresco e sapido.",
+                            "price": 26,
+                            "priceFrom": false,
+                            "image": "hjfg.JPG"
+                        },
+                        {
+                            "id": "gavi-ca-bianca",
+                            "name_it": "Gavi - Ca' Bianca",
+                            "description_it": "",
+                            "price": 30,
+                            "priceFrom": false,
+                            "image": "Gavi_Ca_Bianca.jpg"
+                        },
+                        {
+                            "id": "sauvignon-borgo-conventi-2",
+                            "name_it": "Sauvignon - Borgo Conventi",
+                            "description_it": "Colore giallo paglierino con riflessi leggermente verdognoli., Aroma molto intenso, ampio e caratteristico, con note fragranti che ricordano il fico e le foglie di ortica, la salvia e la foglia di pomodoro, la pesca e l’albicocca appassita., Al gusto è corrispondente, fresco ed elegante, con buona struttura e persistenza aromatica., Abbinamento gastronomico: Frutti di mare, asparagi, pollame, frittate alle verdure, cucina orientale.",
+                            "price": 32,
+                            "priceFrom": false,
+                            "image": "sauvignon_isonzo_del_friuli.jpg"
+                        },
+                        {
+                            "id": "greco-di-tufo-mastroberardino",
+                            "name_it": "Greco di Tufo - Mastroberardino",
+                            "description_it": "Vino giallo paglierino luminoso, con note di frutta matura che richiamano la pesca e l'albicocca., Il gusto morbido e vellutato, con una piacevole nota minerale., Ideale l'abbinamento con la grigliata di crostacei.",
+                            "price": 36,
+                            "priceFrom": false,
+                            "image": "Greco_di_Tufo.jpg"
+                        },
+                        {
+                            "id": "gewurztraminer-weindorf",
+                            "name_it": "Gewürztraminer - Weindorf",
+                            "description_it": "Ha un colore giallo paglierino e un aroma fine e intenso; supportato da un corpo forte ma armonioso al tempo stesso.",
+                            "price": 45,
+                            "priceFrom": false,
+                            "image": "weindorf_gewurztraminer.jpg"
+                        },
+                        {
+                            "id": "prosecco-d-o-c-treviso-brut-dal-bello-2",
+                            "name_it": "Prosecco D.O.C. Treviso Brut - dal Bello",
+                            "description_it": "Colore giallo paglierino con riflessi verdognoli., Spiccano le note fruttate di mela verde., Sapore secco e sapido., Abbinamento: Antipasti a base di pesce.",
+                            "price": 25,
+                            "priceFrom": false,
+                            "image": "Brut_Prosecco_del_Treviso.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "vino-rosso",
+                    "name_it": "Vino Rosso",
+                    "items": [
+                        {
+                            "id": "montepulciano-bordinese-2",
+                            "name_it": "Montepulciano Bordinese",
+                            "description_it": "Profumato di ciliegia e frutti rossi, questo rosso italiano rinfrescante di medio corpo è perfetto con pasta o pizza.",
+                            "price": 20,
+                            "priceFrom": false,
+                            "image": "Bordinese_Montepulciano_abruzzo.jpg"
+                        },
+                        {
+                            "id": "remole-toscana-frescobaldi-2",
+                            "name_it": "Remole (Toscana) - Frescobaldi",
+                            "description_it": "Remole Rosso 2021 si presenta con un bel colore rosso porpora. Al naso si manifesta con il suo carattere fruttato, con intensi sentori di frutti rossi e neri, piccoli frutti di bosco come mirtillo, ribes, lampone e frutti maturi come prugna e ciliegia.",
+                            "price": 28,
+                            "priceFrom": false,
+                            "image": "503.JPG"
+                        },
+                        {
+                            "id": "il-pumo-negramaro-san-marzano-2",
+                            "name_it": "Il Pumo Negramaro - San Marzano",
+                            "description_it": "Rosso intenso e persistente con riflessi violacei-neri, con ribes nero e profumo di frutti di bosco, speziato, con note di timo., Un vino di corpo, morbido ed equilibrato, lungo e piacevole nel finale., Abbinamenti: Ottimo con primi piatti vegetariani, tutti i tipi di piatti di carne e formaggi stagionati.",
+                            "price": 22,
+                            "priceFrom": false,
+                            "image": "Negroamaro.jpg"
+                        },
+                        {
+                            "id": "chianti-castiglioni-frescobaldi",
+                            "name_it": "Chianti Castiglioni - Frescobaldi",
+                            "description_it": ",",
+                            "price": 30,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "lambrusco-rosso-primabolla-2",
+                            "name_it": "Lambrusco Rosso Primabolla",
+                            "description_it": "",
+                            "price": 17,
+                            "priceFrom": false,
+                            "image": "lambrusco.jpg"
+                        },
+                        {
+                            "id": "ripasso-valpolicella-santa-sofia",
+                            "name_it": "Ripasso Valpolicella - Santa Sofía",
+                            "description_it": "Colore: Rubino luminoso., All’analisi olfattiva emergono piacevoli aromi di marmellata di mirtilli, amarene, chiodi di garofano, un sottile aroma di noce moscata e tostatura., Al sorso è avvolgente, morbido e complesso, con buona presenza tannica in fase di integrazione., Abbinamenti: Ottimo da sorseggiare a tutto pasto, è da provare con i pici al sugo di cinghiale per un gemellaggio veneto-toscano.",
+                            "price": 40,
+                            "priceFrom": false,
+                            "image": "Santa_Sofia_Valpolicello_ripasso.jpg"
+                        },
+                        {
+                            "id": "chianti-rufina-nipozzano",
+                            "name_it": "Chianti Rufina Nipozzano",
+                            "description_it": "Nipozzano 2019 presenta un colore rosso rubino vivace., All’olfatto è caratterizzato da sentori fruttati come frutti di bosco, amarena ed eleganti note floreali; meravigliosa la freschezza espressa tramite sentori balsamici. Seguono poi note tostate e speziate di pepe, noce moscata e caffè., Il palato è ricco, caratterizzato dall’elegante densità del frutto e dalla freschezza minerale finale che lo rendono equilibrato e persistente., La trama tannica è fitta ma non graffiante. Splendida la rispondenza gusto-olfattiva.",
+                            "price": 45,
+                            "priceFrom": false,
+                            "image": "nipozzano.jpg"
+                        },
+                        {
+                            "id": "barolo-ca-bianca",
+                            "name_it": "Barolo - Ca' Bianca",
+                            "description_it": "Colore: Granato tendente al blu carico., Profumo: Profumi intensi di marasca matura, spezie e leggere sfumature di cuoio., Gusto: Morbida tannicità e di buona freschezza, con aristocratico retrogusto di liquirizia.",
+                            "price": 46,
+                            "priceFrom": false,
+                            "image": "Barolo_ca_bianca.jpg"
+                        },
+                        {
+                            "id": "rioja-marques-de-altillo",
+                            "name_it": "Rioja - Marqués de Altillo",
+                            "description_it": "Colore ciliegia scuro con riflessi violacei., Profumi potenti di frutti rossi, fragole e fiori., Sapore fresco e morbido, con intensità fruttata e retrogusto lungo e piacevole., Abbinamenti: Un vino meraviglioso per accompagnare vari piatti tra cui carni rosse, pasta, formaggi o insalate.",
+                            "price": 17,
+                            "priceFrom": false,
+                            "image": "Marques_de_altillo.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "vino-rosato",
+                    "name_it": "Vino Rosato",
+                    "items": [
+                        {
+                            "id": "remole-rose-toscana-frescobaldi",
+                            "name_it": "Remole Rose (Toscana) - Frescobaldi",
+                            "description_it": "Leggero, fresco con nota floreale, perfetto come aperitivo, con pesce o verdure.",
+                            "price": 30,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "bardolino-rosato-santa-sofia-2",
+                            "name_it": "Bardolino Rosato - Santa Sofia",
+                            "description_it": "Di aspetto corallo brillante dai decisi riflessi ramati, ha naso che esprime con garbo ricordi di erbe aromatiche, origano e maggiorana, poi fruttati di lamponi, amarene e melagrane sino a suadenti sensazioni minerali, quasi marine., Il sorso, armonico e beverino, svela suadenza e morbidezza, per poi farsi più vibrante, ravvivato da una freschezza al lampone, chiudendo dinamicamente su lunghe sensazioni agrumato-amaricanti al chinotto., Abbinamenti gastronomici: Assai versatile la sua capacità di fondersi con i più svariati piatti: dagli antipasti a base di pesci grassi e verdure, ai primi piatti di pasta conditi in rosso con carni bianche o gustosi prodotti ittici: perfetto con la Caprese, la pizza napoletana con le aggiughe, i carpacci affumicati sia di carne sia di pesce e il prosciutto e melone. Impagabile con la paella e con i piatti speziati della cucina indiana, tipo il pollo al curry.",
+                            "price": 25,
+                            "priceFrom": false,
+                            "image": "bardolino.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bevande",
+            "name_it": "Bevande",
+            "subcategories": [
+                {
+                    "id": "bibite",
+                    "name_it": "Bibite",
+                    "items": [
+                        {
+                            "id": "prosecco-sangria",
+                            "name_it": "Prosecco Sangria",
+                            "description_it": "",
+                            "price": 21,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "acqua-500ml",
+                            "name_it": "Acqua 500ml",
+                            "description_it": "",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "coca-cola",
+                            "name_it": "Coca cola",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "coca-cola-light-zero",
+                            "name_it": "Coca cola light/zero",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "fanta-orange-lemon",
+                            "name_it": "Fanta orange/lemon",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "sprite",
+                            "name_it": "Sprite",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "appletizer",
+                            "name_it": "Appletizer",
+                            "description_it": "",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "tonica",
+                            "name_it": "Tonica",
+                            "description_it": "",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "soda-ginger-ale",
+                            "name_it": "Soda/Ginger Ale",
+                            "description_it": "",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "zumos",
+                            "name_it": "Zumos",
+                            "description_it": "",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "nestea",
+                            "name_it": "Nestea",
+                            "description_it": "",
+                            "price": 4.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "1-2-litro-vino-della-casa",
+                            "name_it": "1/2 litro vino della casa",
+                            "description_it": "",
+                            "price": 15,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "1-4-litro-vino-della-casa",
+                            "name_it": "1/4 litro vino della casa",
+                            "description_it": "",
+                            "price": 10,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "nostra-sangria-1-litro",
+                            "name_it": "Nostra Sangria 1 litro",
+                            "description_it": "",
+                            "price": 18,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "birra",
+                    "name_it": "Birra",
+                    "items": [
+                        {
+                            "id": "estrella-galicia-alla-spina-20-cl",
+                            "name_it": "Estrella Galicia alla spina 20 cl",
+                            "description_it": "",
+                            "price": 3,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "estrella-galicia-alla-spina-40-cl",
+                            "name_it": "Estrella Galicia alla spina 40 cl",
+                            "description_it": "",
+                            "price": 4.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "estrella-galicia-bot-33-cl",
+                            "name_it": "Estrella Galicia bot. 33 cl",
+                            "description_it": "",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "estrella-galicia-0-0-senza-alcool",
+                            "name_it": "Estrella Galicia 0,0 senza alcool",
+                            "description_it": "",
+                            "price": 3,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "estrella-galicia-1906",
+                            "name_it": "Estrella Galicia 1906",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "caffe",
+                    "name_it": "Caffè & Co.",
+                    "items": [
+                        {
+                            "id": "barraquito",
+                            "name_it": "BARRAQUITO",
+                            "description_it": "",
+                            "price": 4.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "espresso",
+                            "name_it": "Espresso",
+                            "description_it": "",
+                            "price": 1.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "caffe-macchiato",
+                            "name_it": "Caffé macchiato",
+                            "description_it": "",
+                            "price": 1.75,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "cortado-bon-bon",
+                            "name_it": "Cortado / Bon Bon",
+                            "description_it": "",
+                            "price": 1.8,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "leche-leche",
+                            "name_it": "Leche leche",
+                            "description_it": "",
+                            "price": 2,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "leche-leche-largo",
+                            "name_it": "Leche leche largo",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "cafe-con-leche",
+                            "name_it": "Café con leche",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "cappuccino-italiano",
+                            "name_it": "Cappuccino italiano",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "latte-macchiato",
+                            "name_it": "Latte macchiato",
+                            "description_it": "",
+                            "price": 3,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "carajillo-corretto",
+                            "name_it": "Carajillo / corretto",
+                            "description_it": "",
+                            "price": 2.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "te",
+                            "name_it": "Te",
+                            "description_it": "",
+                            "price": 1.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "infusi",
+                            "name_it": "Infusi",
+                            "description_it": "",
+                            "price": 1.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "camomilla",
+                            "name_it": "Camomilla",
+                            "description_it": "",
+                            "price": 1.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "menta-poleo",
+                            "name_it": "Menta poleo",
+                            "description_it": "",
+                            "price": 1.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "hot-special-thai-infusion",
+                            "name_it": "Hot special Thai infusion",
+                            "description_it": "radice di zenzero, menta piperita fresca, scorza di limone, succo di limone spremuto",
+                            "price": 3.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "irish-coffee",
+                            "name_it": "Irish coffee",
+                            "description_it": "",
+                            "price": 6.5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "liquori",
+                    "name_it": "Liquori / Amari",
+                    "items": [
+                        {
+                            "id": "amaretto-di-saronno",
+                            "name_it": "Amaretto di Saronno",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "sambuca",
+                            "name_it": "Sambuca",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "amari",
+                            "name_it": "Amari",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "grappa-bianca",
+                            "name_it": "Grappa bianca",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "grappa-barricata",
+                            "name_it": "Grappa barricata",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "baileys-irish-cream",
+                            "name_it": "Baileys Irish cream",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "tia-maria",
+                            "name_it": "Tia Maria",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "khalua",
+                            "name_it": "Khalua",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "frangelico",
+                            "name_it": "Frangelico",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "limoncello-biologico",
+                            "name_it": "Limoncello biologico",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "martini-bianco-rosso-dry",
+                            "name_it": "Martini bianco/rosso/dry",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "campari",
+                            "name_it": "Campari",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "aperol",
+                            "name_it": "Aperol",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "veterano-brandy",
+                            "name_it": "Veterano Brandy",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "magno-brandy",
+                            "name_it": "Magno Brandy",
+                            "description_it": "",
+                            "price": 4,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "carlos-i-brandy",
+                            "name_it": "Carlos I Brandy",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "havana-7",
+                            "name_it": "Havana 7",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "beefeater-gin",
+                            "name_it": "Beefeater Gin",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "bombay-gin",
+                            "name_it": "Bombay Gin",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "ballantines-whisky",
+                            "name_it": "Ballantines whisky",
+                            "description_it": "",
+                            "price": 6,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "jhonny-walker-whisky-black",
+                            "name_it": "Jhonny walker whisky Black",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "jhonny-walker-whisky-red",
+                            "name_it": "Jhonny walker whisky Red",
+                            "description_it": "",
+                            "price": 5,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "shot-chupito",
+                            "name_it": "Shot/Chupito",
+                            "description_it": "",
+                            "price": 3,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "combinado",
+                            "name_it": "Combinado",
+                            "description_it": "+1,00 €",
+                            "price": null,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "long-drinks",
+                    "name_it": "Long Drinks",
+                    "items": [
+                        {
+                            "id": "aperol-spritz",
+                            "name_it": "Aperol Spritz",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "campari-2",
+                            "name_it": "Campari",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "gordon-s-gin",
+                            "name_it": "Gordon's Gin",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "moskowskaya-vodka",
+                            "name_it": "Moskowskaya vodka",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "smirnoff-vodka",
+                            "name_it": "Smirnoff vodka",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "martini-bianco-rosso-dry-2",
+                            "name_it": "Martini bianco/rosso/dry",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        },
+                        {
+                            "id": "ron-arehucas-blanco-oro",
+                            "name_it": "Ron Arehucas blanco/oro",
+                            "description_it": "",
+                            "price": 7,
+                            "priceFrom": false,
+                            "image": "logo.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

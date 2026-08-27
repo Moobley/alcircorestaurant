@@ -1,0 +1,330 @@
+{
+  "categories": {
+    "primi": { "es": "Primeros", "it": "Primi Piatti", "en": "First Courses", "fr": "Plats Principaux", "de": "Hauptgerichte" },
+    "secondi-piatti": { "es": "Segundos", "it": "Secondi Piatti", "en": "Main Courses", "fr": "Plats de Résistance", "de": "Hauptspeisen" },
+    "pizze": { "es": "Las Pizzas", "it": "Le Pizze", "en": "Pizzas", "fr": "Les Pizzas", "de": "Die Pizzen" }
+  },
+  "subcategories": {
+    "paste": { "es": "Pastas", "it": "Paste", "en": "Pasta", "fr": "Pâtes", "de": "Pasta" },
+    "secondi": { "es": "Segundos", "it": "Secondi Piatti", "en": "Main Courses", "fr": "Plats de Résistance", "de": "Hauptspeisen" },
+    "contorni": { "es": "Acompañamientos", "it": "Contorni", "en": "Side Dishes", "fr": "Accompagnements", "de": "Beilagen" },
+    "pizze-artigianali": { "es": "Pizzas Artesanales", "it": "Pizze Artigianali", "en": "Artisan Pizzas", "fr": "Pizzas Artisanales", "de": "Handwerkspizzen" },
+    "covaccini": { "es": "Covaccini Artesanales", "it": "Covaccini Artigianali", "en": "Artisan Covaccini", "fr": "Covaccini Artisanaux", "de": "Handwerks-Covaccini" },
+    "calzoni": { "es": "Calzones Artesanales", "it": "Calzoni Artigianali", "en": "Artisan Calzones", "fr": "Calzones Artisanaux", "de": "Handwerks-Calzone" },
+    "ingredienti-extra": { "es": "Ingredientes Extra", "it": "Ingredienti Extra", "en": "Extra Toppings", "fr": "Ingrédients Supplémentaires", "de": "Extra Zutaten" }
+  },
+  "items": {
+    "spaghetti-alla-carbonara": {
+      "name": { "es": "Spaghetti a la carbonara", "it": "Spaghetti alla carbonara", "en": "Spaghetti alla carbonara", "fr": "Spaghetti alla carbonara", "de": "Spaghetti alla carbonara" },
+      "description": { "es": "spaghetti Rummo con guanciale, huevo, pimienta y pecorino romano", "it": "spaghetti Rummo con guanciale, uovo, pepe e pecorino romano", "en": "Rummo spaghetti with guanciale, egg, pepper and pecorino romano", "fr": "spaghetti Rummo au guanciale, œuf, poivre et pecorino romano", "de": "Rummo-Spaghetti mit Guanciale, Ei, Pfeffer und Pecorino Romano" }
+    },
+    "spaghetti-allo-scoglio-di-mamma-tina": {
+      "name": { "es": "Spaghetti allo scoglio de la mamma Tina", "it": "Spaghetti allo scoglio di mamma Tina", "en": "Mamma Tina's seafood spaghetti", "fr": "Spaghetti allo scoglio de mamma Tina", "de": "Spaghetti allo scoglio von Mamma Tina" },
+      "description": { "es": "spaghetti Rummo con ajo, mejillones, almejas, calamares...", "it": "spaghetti Rummo con aglio, cozze, vongole, calamari...", "en": "Rummo spaghetti with garlic, mussels, clams, squid...", "fr": "spaghetti Rummo à l'ail, moules, palourdes, calamars...", "de": "Rummo-Spaghetti mit Knoblauch, Miesmuscheln, Venusmuscheln, Tintenfisch..." }
+    },
+    "risotto-ai-porcini": {
+      "name": { "es": "Risotto de boletus", "it": "Risotto ai porcini", "en": "Porcini mushroom risotto", "fr": "Risotto aux cèpes", "de": "Risotto mit Steinpilzen" },
+      "description": { "es": "Disponible con trufa por 21,00 €", "it": "Disponibile con Tartufo € 21,00", "en": "Available with truffle €21.00", "fr": "Disponible avec truffe à 21,00 €", "de": "Auch mit Trüffel für 21,00 € erhältlich" }
+    },
+    "tagliolini-al-salmone-fresco": {
+      "name": { "es": "Tagliolini con salmón fresco", "it": "Tagliolini al salmone fresco", "en": "Tagliolini with fresh salmon", "fr": "Tagliolini au saumon frais", "de": "Tagliolini mit frischem Lachs" },
+      "description": { "es": "con tomates cherry y burrata", "it": "con pomodorini e burrata", "en": "with cherry tomatoes and burrata", "fr": "avec tomates cerises et burrata", "de": "mit Kirschtomaten und Burrata" }
+    },
+    "tordelli-viareggini": {
+      "name": { "es": "Tordelli de Viareggio", "it": "Tordelli viareggini", "en": "Viareggio-style tordelli", "fr": "Tordelli de Viareggio", "de": "Tordelli aus Viareggio" },
+      "description": { "es": "Raviolis de carne con ragú toscano rojo", "it": "Ravioli di carne con ragù toscano rosso", "en": "Meat ravioli with Tuscan red ragù", "fr": "Raviolis à la viande avec ragù toscan rouge", "de": "Fleischravioli mit rotem toskanischem Ragù" }
+    },
+    "lasagna-di-carne": {
+      "name": { "es": "Lasaña de carne", "it": "Lasagna di carne", "en": "Meat lasagna", "fr": "Lasagnes à la viande", "de": "Fleischlasagne" },
+      "description": { "es": "Inspirada en la receta de la bisabuela modenesa Giuseppina...", "it": "Ispirata alla ricetta della bisnonna modenese Giuseppina...", "en": "Inspired by the recipe of great-grandmother Giuseppina from Modena...", "fr": "Inspirées de la recette de l'arrière-grand-mère modénaise Giuseppina...", "de": "Inspiriert vom Rezept der Urgroßmutter Giuseppina aus Modena..." }
+    },
+    "corzetti-di-chiavari": {
+      "name": { "es": "Corzetti de Chiavari", "it": "Corzetti di Chiavari", "en": "Chiavari corzetti", "fr": "Corzetti de Chiavari", "de": "Corzetti aus Chiavari" },
+      "description": { "es": "Pasta fresca peculiar con aceite de oliva y vino blanco...", "it": "Peculiare pasta fresca con olio di oliva e vino bianco...", "en": "Distinctive fresh pasta with olive oil and white wine...", "fr": "Pâte fraîche singulière à l'huile d'olive et au vin blanc...", "de": "Besondere frische Pasta mit Olivenöl und Weißwein..." }
+    },
+    "pappardelle-ai-porcini": {
+      "name": { "es": "Pappardelle con boletus", "it": "Pappardelle ai porcini", "en": "Pappardelle with porcini", "fr": "Pappardelle aux cèpes", "de": "Pappardelle mit Steinpilzen" },
+      "description": { "es": "Disponibles también con trufa por 20,00 €", "it": "Disponibili anche con tartufo € 20,00", "en": "Also available with truffle €20.00", "fr": "Également disponibles avec truffe à 20,00 €", "de": "Auch mit Trüffel für 20,00 € erhältlich" }
+    },
+    "ignudi-dell-isola-d-elba": {
+      "name": { "es": "IGNUDI DELL'ISOLA D'ELBA", "it": "IGNUDI DELL'ISOLA D'ELBA", "en": "IGNUDI FROM THE ISLAND OF ELBA", "fr": "IGNUDI DE L'ÎLE D'ELBE", "de": "IGNUDI VON DER INSEL ELBA" },
+      "description": { "es": "Ignudi de ricotta y espinacas con mantequilla y salvia", "it": "Ignudi di ricotta e spinaci burro e salvia", "en": "Ricotta and spinach ignudi with butter and sage", "fr": "Ignudi à la ricotta et aux épinards, beurre et sauge", "de": "Ignudi aus Ricotta und Spinat mit Butter und Salbei" }
+    },
+    "gnocchi-alla-sorrentina": {
+      "name": { "es": "Ñoquis a la sorrentina", "it": "Gnocchi alla sorrentina", "en": "Gnocchi alla sorrentina", "fr": "Gnocchis à la sorrentina", "de": "Gnocchi alla Sorrentina" },
+      "description": { "es": "Ñoquis de patata al tomate con mozzarella de búfala...", "it": "Gnocchi di patate al pomodoro con mozzarella di bufala...", "en": "Potato gnocchi in tomato sauce with buffalo mozzarella...", "fr": "Gnocchis de pommes de terre à la tomate avec mozzarella de bufflonne...", "de": "Kartoffelgnocchi in Tomatensauce mit Büffelmozzarella..." }
+    },
+    "tagliolini-gamberi-e-zenzero": {
+      "name": { "es": "Tagliolini con gambas y jengibre", "it": "Tagliolini gamberi e zenzero", "en": "Tagliolini with prawns and ginger", "fr": "Tagliolini aux gambas et au gingembre", "de": "Tagliolini mit Garnelen und Ingwer" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "ravioli-di-pesce": {
+      "name": { "es": "Raviolis de pescado", "it": "Ravioli di pesce", "en": "Fish ravioli", "fr": "Raviolis de poisson", "de": "Fisch-Ravioli" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "pasta-fresca": {
+      "name": { "es": "Pasta fresca", "it": "Pasta fresca", "en": "Fresh pasta", "fr": "Pâtes fraîches", "de": "Frische Pasta" },
+      "description": { "es": "con: ragú, tomate, arrabbiata o pesto genovés", "it": "con: Ragù, pomodoro, Arrabbiata, o pesto alla genovese", "en": "with: ragù, tomato, arrabbiata, or Genoese pesto", "fr": "avec : ragù, tomate, arrabbiata ou pesto génois", "de": "mit: Ragù, Tomate, Arrabbiata oder Pesto alla Genovese" }
+    },
+    "tagliata-di-controfiletto-di-manzo": {
+      "name": { "es": "Tagliata de solomillo de ternera", "it": "Tagliata di controfiletto di manzo", "en": "Sliced beef sirloin tagliata", "fr": "Tagliata de contre-filet de bœuf", "de": "Tagliata vom Rinder-Roastbeef" },
+      "description": { "es": "con rúcula, lascas de grana y reducción de vinagre balsámico", "it": "con rucola, scaglie di grana e riduzione di aceto balsamico", "en": "with rocket, grana shavings and balsamic vinegar reduction", "fr": "avec roquette, copeaux de grana et réduction de vinaigre balsamique", "de": "mit Rucola, Grana-Hobeln und Balsamico-Reduktion" }
+    },
+    "tagliata-di-controfiletto-di-manzo-taleggio-e-tartufo": {
+      "name": { "es": "Tagliata de solomillo de ternera con taleggio y trufa", "it": "Tagliata di controfiletto di manzo, taleggio e tartufo", "en": "Sliced beef sirloin tagliata with taleggio and truffle", "fr": "Tagliata de contre-filet de bœuf, taleggio et truffe", "de": "Tagliata vom Rinder-Roastbeef mit Taleggio und Trüffel" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "millefoglie-di-pollo-con-fonduta-di-taleggio-e-porcini": {
+      "name": { "es": "Milhojas de pollo con fondue de taleggio y boletus", "it": "Millefoglie di pollo con fonduta di taleggio e porcini", "en": "Chicken mille-feuille with taleggio and porcini fondue", "fr": "Mille-feuille de poulet à la fondue de taleggio et cèpes", "de": "Hähnchen-Millefeuille mit Taleggio- und Steinpilz-Fondue" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "salmone": {
+      "name": { "es": "Salmón", "it": "Salmone", "en": "Salmon", "fr": "Saumon", "de": "Lachs" },
+      "description": { "es": "con verduras salteadas y salsa de mascarpone y limón", "it": "con verdure saltate e salsa al mascarpone e limone", "en": "with sautéed vegetables and mascarpone and lemon sauce", "fr": "avec légumes sautés et sauce au mascarpone et citron", "de": "mit sautiertem Gemüse und Mascarpone-Zitronen-Sauce" }
+    },
+    "tataki-di-tonno-fresco": {
+      "name": { "es": "Tataki de atún fresco", "it": "Tataki di tonno fresco", "en": "Fresh tuna tataki", "fr": "Tataki de thon frais", "de": "Tataki von frischem Thunfisch" },
+      "description": { "es": "en costra de pistachos, cebolla roja agridulce y reducción...", "it": "in crosta di pistacchi, cipolla rossa agrodolce e riduzione...", "en": "with pistachio crust, sweet-and-sour red onion and reduction...", "fr": "en croûte de pistaches, oignon rouge aigre-doux et réduction...", "de": "mit Pistazienkruste, süß-saurer roter Zwiebel und Reduktion..." }
+    },
+    "saltimbocca-alla-romana": {
+      "name": { "es": "Saltimbocca a la romana", "it": "Saltimbocca alla romana", "en": "Saltimbocca alla romana", "fr": "Saltimbocca alla romana", "de": "Saltimbocca alla Romana" },
+      "description": { "es": "Ternera, jamón crudo y salvia", "it": "Manzo, prosciutto crudo e salvia", "en": "Beef, cured ham and sage", "fr": "Bœuf, jambon cru et sauge", "de": "Rindfleisch, Rohschinken und Salbei" }
+    },
+    "pescato-del-giorno": {
+      "name": { "es": "Pescado del día", "it": "Pescato del giorno", "en": "Catch of the day", "fr": "Poisson du jour", "de": "Fang des Tages" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "fritto-misto-di-calamari-gamberi-verdurine-e-pesce": {
+      "name": { "es": "Fritto misto de calamares, gambas, verduras y pescado", "it": "Fritto misto di calamari, gamberi, verdurine e pesce", "en": "Mixed fried seafood of squid, prawns, vegetables and fish", "fr": "Friture de calamars, gambas, petits légumes et poisson", "de": "Fritto Misto aus Tintenfisch, Garnelen, Gemüse und Fisch" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "insalata-rucola-e-parmigano": {
+      "name": { "es": "Ensalada de rúcula y parmesano", "it": "Insalata Rucola e Parmigano", "en": "Rocket and parmesan salad", "fr": "Salade de roquette et parmesan", "de": "Rucola-Parmesan-Salat" },
+      "description": { "es": "Ensalada de rúcula y parmesano", "it": "Insalata Rucola e Parmigano", "en": "Rocket and parmesan salad", "fr": "Salade de roquette et parmesan", "de": "Rucola-Parmesan-Salat" }
+    },
+    "insalatina-mista-o-verde": {
+      "name": { "es": "Ensaladita mixta o verde", "it": "Insalatina mista o verde", "en": "Mixed or green salad", "fr": "Petite salade verte ou mixte", "de": "Kleiner gemischter oder grüner Salat" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "patate-vere-fritte-con-sale-grosso-e-rosmarino": {
+      "name": { "es": "Patatas fritas de verdad con sal gorda y romero", "it": "Patate vere fritte con sale grosso e rosmarino", "en": "Real fried potatoes with coarse salt and rosemary", "fr": "Vraies frites au gros sel et au romarin", "de": "Echte Bratkartoffeln mit grobem Salz und Rosmarin" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "verdure-di-stagione-saltate": {
+      "name": { "es": "Verduras de temporada salteadas", "it": "Verdure di stagione saltate", "en": "Sautéed seasonal vegetables", "fr": "Légumes de saison sautés", "de": "Sautiertes Saisongemüse" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "spinaci-saltati-burro-e-aglio": {
+      "name": { "es": "Espinacas salteadas con mantequilla y ajo", "it": "Spinaci saltati burro e aglio", "en": "Spinach sautéed with butter and garlic", "fr": "Épinards sautés au beurre et à l'ail", "de": "Spinat mit Butter und Knoblauch sautiert" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "prada": {
+      "name": { "es": "PRADA", "it": "PRADA", "en": "PRADA", "fr": "PRADA", "de": "PRADA" },
+      "description": { "es": "Berenjenas fritas, grana y albahaca", "it": "Melanzane fritte, grana e basilico", "en": "Fried aubergines, grana and basil", "fr": "Aubergines frites, grana et basilic", "de": "Frittierte Auberginen, Grana und Basilikum" }
+    },
+    "margherita": {
+      "name": { "es": "Margherita", "it": "Margherita", "en": "Margherita", "fr": "Margherita", "de": "Margherita" },
+      "description": { "es": "tomate, mozzarella, albahaca", "it": "pomodoro, mozzarella, basilico", "en": "tomato, mozzarella, basil", "fr": "tomate, mozzarella, basilic", "de": "Tomaten, Mozzarella, Basilikum" }
+    },
+    "regina-margherita": {
+      "name": { "es": "Regina Margherita", "it": "Regina Margherita", "en": "Regina Margherita", "fr": "Regina Margherita", "de": "Regina Margherita" },
+      "description": { "es": "tomate, mozzarella fresca, albahaca", "it": "pomodoro, mozzarella fresca, basilico", "en": "tomato, fresh mozzarella, basil", "fr": "tomate, mozzarella fraîche, basilic", "de": "Tomaten, frische Mozzarella, Basilikum" }
+    },
+    "la-pizza-piu-buona-del-mondo": {
+      "name": { "es": "La pizza más buena del mundo", "it": "La pizza piú buona del mondo", "en": "The best pizza in the world", "fr": "La meilleure pizza du monde", "de": "Die beste Pizza der Welt" },
+      "description": { "es": "Jamón crudo, boletus, rúcula, tomate fresco y grana en lascas", "it": "Crudo, porcini, rucola, pomodoro fresco e grana a scaglie", "en": "Cured ham, porcini, rocket, fresh tomato and grana shavings", "fr": "Jambon cru, cèpes, roquette, tomate fraîche et copeaux de grana", "de": "Rohschinken, Steinpilze, Rucola, frische Tomaten und Grana-Hobel" }
+    },
+    "maialona": {
+      "name": { "es": "Maialona", "it": "Maialona", "en": "Maialona", "fr": "Maialona", "de": "Maialona" },
+      "description": { "es": "jamón cocido, panceta enrollada, salamino y salchicha", "it": "cotto, pancetta arrotolata, salamino e salsiccia", "en": "cooked ham, rolled bacon, salami and sausage", "fr": "jambon cuit, poitrine roulée, salami et saucisse", "de": "gekochter Schinken, gerollter Speck, Salamino und Bratwurst" }
+    },
+    "les-tres-francescos": {
+      "name": { "es": "Les tres Francescos", "it": "Les tres Francescos", "en": "Les tres Francescos", "fr": "Les tres Francescos", "de": "Les tres Francescos" },
+      "description": { "es": "tomate, mozzarella, 'nduja, espinacas, huevo", "it": "pomodoro, mozzarella, 'nduja, spinaci, uovo", "en": "tomato, mozzarella, 'nduja, spinach, egg", "fr": "tomate, mozzarella, 'nduja, épinards, œuf", "de": "Tomaten, Mozzarella, 'Nduja, Spinat, Ei" }
+    },
+    "orchidea": {
+      "name": { "es": "Orchidea", "it": "Orchidea", "en": "Orchidea", "fr": "Orchidea", "de": "Orchidea" },
+      "description": { "es": "tomate, mozzarella de búfala, albahaca", "it": "pomodoro, mozzarella di bufala, basilico", "en": "tomato, buffalo mozzarella, basil", "fr": "tomate, mozzarella de bufflonne, basilic", "de": "Tomaten, Büffelmozzarella, Basilikum" }
+    },
+    "napoli": {
+      "name": { "es": "Napoli", "it": "Napoli", "en": "Napoli", "fr": "Napoli", "de": "Napoli" },
+      "description": { "es": "alcaparras, anchoas y ajo", "it": "capperi, acciughe e aglio", "en": "capers, anchovies and garlic", "fr": "câpres, anchois et ail", "de": "Kapern, Sardellen und Knoblauch" }
+    },
+    "cotto": {
+      "name": { "es": "Cotto", "it": "Cotto", "en": "Cotto", "fr": "Cotto", "de": "Cotto" },
+      "description": { "es": "jamón cocido", "it": "prosciutto cotto", "en": "cooked ham", "fr": "jambon cuit", "de": "gekochter Schinken" }
+    },
+    "cotto-e-funghi": {
+      "name": { "es": "Cotto e funghi", "it": "Cotto e funghi", "en": "Cotto e funghi", "fr": "Cotto e funghi", "de": "Cotto e funghi" },
+      "description": { "es": "Jamón cocido y champiñones", "it": "Cotto e funghi", "en": "Cooked ham and mushrooms", "fr": "Jambon cuit et champignons", "de": "Gekochter Schinken und Pilze" }
+    },
+    "capricciosa": {
+      "name": { "es": "Capricciosa", "it": "Capricciosa", "en": "Capricciosa", "fr": "Capricciosa", "de": "Capricciosa" },
+      "description": { "es": "jamón cocido, champiñones, alcachofas, aceitunas y alcaparras", "it": "cotto, funghi, carciofini, olive e capperi", "en": "cooked ham, mushrooms, artichokes, olives and capers", "fr": "jambon cuit, champignons, artichauts, olives et câpres", "de": "gekochter Schinken, Pilze, Artischocken, Oliven und Kapern" }
+    },
+    "4-stagioni": {
+      "name": { "es": "4 Estaciones", "it": "4 Stagioni", "en": "Four Seasons", "fr": "4 Saisons", "de": "4 Jahreszeiten" },
+      "description": { "es": "jamón cocido, champiñones, alcachofas, aceitunas", "it": "cotto, funghi, carciofini, olive", "en": "cooked ham, mushrooms, artichokes, olives", "fr": "jambon cuit, champignons, artichauts, olives", "de": "gekochter Schinken, Pilze, Artischocken, Oliven" }
+    },
+    "quattro-formaggi-italiani": {
+      "name": { "es": "Cuatro quesos italianos", "it": "Quattro formaggi italiani", "en": "Four Italian cheeses", "fr": "Quatre fromages italiens", "de": "Vier italienische Käsesorten" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "diavola": {
+      "name": { "es": "Diavola", "it": "Diavola", "en": "Diavola", "fr": "Diavola", "de": "Diavola" },
+      "description": { "es": "salamino picante", "it": "salamino piccante", "en": "spicy salami", "fr": "salami piquant", "de": "pikanter Salamino" }
+    },
+    "malafemmena": {
+      "name": { "es": "Malafemmena", "it": "Malafemmena", "en": "Malafemmena", "fr": "Malafemmena", "de": "Malafemmena" },
+      "description": { "es": "Crema de calabaza, taleggio, 'nduja, panceta enrollada...", "it": "Crema di zucca, taleggio, 'nduja, pancetta arrotolata...", "en": "Pumpkin cream, taleggio, 'nduja, rolled bacon...", "fr": "Crème de potiron, taleggio, 'nduja, poitrine roulée...", "de": "Kürbiscreme, Taleggio, 'Nduja, gerollter Speck..." }
+    },
+    "signora": {
+      "name": { "es": "Signora", "it": "Signora", "en": "Signora", "fr": "Signora", "de": "Signora" },
+      "description": { "es": "Jamón crudo", "it": "Prosciutto crudo", "en": "Cured ham", "fr": "Jambon cru", "de": "Rohschinken" }
+    },
+    "timanfaya": {
+      "name": { "es": "Timanfaya", "it": "Timanfaya", "en": "Timanfaya", "fr": "Timanfaya", "de": "Timanfaya" },
+      "description": { "es": "ajo, guindilla, pimiento, tabasco", "it": "aglio, peperoncino, peperone, tabasco", "en": "garlic, chilli, pepper, tabasco", "fr": "ail, piment, poivron, tabasco", "de": "Knoblauch, Peperoncino, Paprika, Tabasco" }
+    },
+    "speck-e-gorgonzola": {
+      "name": { "es": "Speck y gorgonzola", "it": "Speck e gorgonzola", "en": "Speck and gorgonzola", "fr": "Speck et gorgonzola", "de": "Speck und Gorgonzola" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "speck-e-mascarpone": {
+      "name": { "es": "Speck y mascarpone", "it": "Speck e mascarpone", "en": "Speck and mascarpone", "fr": "Speck et mascarpone", "de": "Speck und Mascarpone" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "olga": {
+      "name": { "es": "Olga", "it": "Olga", "en": "Olga", "fr": "Olga", "de": "Olga" },
+      "description": { "es": "Speck, gorgonzola y boletus", "it": "Speck, gorgonzola e porcini", "en": "Speck, gorgonzola and porcini", "fr": "Speck, gorgonzola et cèpes", "de": "Speck, Gorgonzola und Steinpilze" }
+    },
+    "pescatora": {
+      "name": { "es": "Pescatora", "it": "Pescatora", "en": "Pescatora", "fr": "Pescatora", "de": "Pescatora" },
+      "description": { "es": "atún y cebolla", "it": "tonno e cipolla", "en": "tuna and onion", "fr": "thon et oignon", "de": "Thunfisch und Zwiebel" }
+    },
+    "vegetariana": {
+      "name": { "es": "Vegetariana", "it": "Vegetariana", "en": "Vegetariana", "fr": "Végétarienne", "de": "Vegetarisch" },
+      "description": { "es": "pimientos, berenjenas, calabacines y alcachofas", "it": "peperoni, melanzane, zucchine e carciofini", "en": "peppers, aubergines, courgettes and artichokes", "fr": "poivrons, aubergines, courgettes et artichauts", "de": "Paprika, Auberginen, Zucchini und Artischocken" }
+    },
+    "frutti-di-mare": {
+      "name": { "es": "Frutti di mare", "it": "Frutti di mare", "en": "Frutti di mare", "fr": "Frutti di mare", "de": "Frutti di mare" },
+      "description": { "es": "mejillones, almejas, gambas, calamares, ajo y perejil", "it": "cozze, vongole, gamberi, calamari, aglio e prezzemolo", "en": "mussels, clams, prawns, squid, garlic and parsley", "fr": "moules, palourdes, gambas, calamars, ail et persil", "de": "Miesmuscheln, Venusmuscheln, Garnelen, Tintenfisch, Knoblauch und Petersilie" }
+    },
+    "maremonti": {
+      "name": { "es": "Maremonti", "it": "Maremonti", "en": "Maremonti", "fr": "Maremonti", "de": "Maremonti" },
+      "description": { "es": "calzonpizza con jamón cocido, champiñones, mejillones y gambas", "it": "calzonpizza con cotto, funghi, cozze e gamberi", "en": "calzonpizza with cooked ham, mushrooms, mussels and prawns", "fr": "calzonpizza au jambon cuit, champignons, moules et gambas", "de": "Calzonpizza mit gekochtem Schinken, Pilzen, Miesmuscheln und Garnelen" }
+    },
+    "golosa": {
+      "name": { "es": "Golosa", "it": "Golosa", "en": "Golosa", "fr": "Golosa", "de": "Golosa" },
+      "description": { "es": "salchicha y espinacas", "it": "salciccia e spinaci", "en": "sausage and spinach", "fr": "saucisse et épinards", "de": "Bratwurst und Spinat" }
+    },
+    "equilibrista": {
+      "name": { "es": "Equilibrista", "it": "Equilibrista", "en": "Equilibrista", "fr": "Equilibrista", "de": "Equilibrista" },
+      "description": { "es": "gambas y calabacines", "it": "gamberi e zucchini", "en": "prawns and courgettes", "fr": "gambas et courgettes", "de": "Garnelen und Zucchini" }
+    },
+    "jean-from-paris": {
+      "name": { "es": "Jean from Paris", "it": "Jean from Paris", "en": "Jean from Paris", "fr": "Jean from Paris", "de": "Jean from Paris" },
+      "description": { "es": "salmón, mascarpone y rúcula", "it": "salmone, mascarpone e rucola", "en": "salmon, mascarpone and rocket", "fr": "saumon, mascarpone et roquette", "de": "Lachs, Mascarpone und Rucola" }
+    },
+    "valtellina": {
+      "name": { "es": "Valtellina", "it": "Valtellina", "en": "Valtellina", "fr": "Valtellina", "de": "Valtellina" },
+      "description": { "es": "bresaola, rúcula y grana en lascas", "it": "bresaola, rucola e grana a scaglie", "en": "bresaola, rocket and grana shavings", "fr": "bresaola, roquette et copeaux de grana", "de": "Bresaola, Rucola und Grana-Hobel" }
+    },
+    "lidia": {
+      "name": { "es": "LIDIA", "it": "LIDIA", "en": "LIDIA", "fr": "LIDIA", "de": "LIDIA" },
+      "description": { "es": "calabacines, espinacas, tomates cherry, jamón crudo", "it": "zucchine, spinaci, pomodorini, prosciutto crudo", "en": "courgettes, spinach, cherry tomatoes, cured ham", "fr": "courgettes, épinards, tomates cerises, jambon cru", "de": "Zucchini, Spinat, Kirschtomaten, Rohschinken" }
+    },
+    "il-covaccino-piu-buono-del-mondo": {
+      "name": { "es": "El covaccino más bueno del mundo", "it": "Il Covaccino più buono del mondo", "en": "The best covaccino in the world", "fr": "Le meilleur covaccino du monde", "de": "Der beste Covaccino der Welt" },
+      "description": { "es": "Jamón crudo, boletus, rúcula, tomate fresco y grana en lascas", "it": "Crudo, porcini, rucola, pomodoro fresco e grana a scaglie", "en": "Cured ham, porcini, rocket, fresh tomato and grana shavings", "fr": "Jambon cru, cèpes, roquette, tomate fraîche et copeaux de grana", "de": "Rohschinken, Steinpilze, Rucola, frische Tomaten und Grana-Hobel" }
+    },
+    "charly": {
+      "name": { "es": "Charly", "it": "Charly", "en": "Charly", "fr": "Charly", "de": "Charly" },
+      "description": { "es": "berenjenas, puerro, mascarpone, tomates cherry, albahaca y grana", "it": "melanzane, porro, mascarpone, pomodorini, basilico e grana", "en": "aubergines, leek, mascarpone, cherry tomatoes, basil and grana", "fr": "aubergines, poireau, mascarpone, tomates cerises, basilic et grana", "de": "Auberginen, Lauch, Mascarpone, Kirschtomaten, Basilikum und Grana" }
+    },
+    "astrapparadicchio": {
+      "name": { "es": "Astrapparadicchio", "it": "Astrapparadicchio", "en": "Astrapparadicchio", "fr": "Astrapparadicchio", "de": "Astrapparadicchio" },
+      "description": { "es": "taleggio, salchicha y radicchio", "it": "taleggio, salsiccia e radicchio", "en": "taleggio, sausage and radicchio", "fr": "taleggio, saucisse et radicchio", "de": "Taleggio, Bratwurst und Radicchio" }
+    },
+    "la-zoccolona": {
+      "name": { "es": "La Zoccolona", "it": "La Zoccolona", "en": "La Zoccolona", "fr": "La Zoccolona", "de": "La Zoccolona" },
+      "description": { "es": "Salchicha, burrata, rúcula", "it": "Salsiccia, Burrata, Rucola", "en": "Sausage, burrata, rocket", "fr": "Saucisse, burrata, roquette", "de": "Bratwurst, Burrata, Rucola" }
+    },
+    "cinghialotta": {
+      "name": { "es": "Cinghialotta", "it": "Cinghialotta", "en": "Cinghialotta", "fr": "Cinghialotta", "de": "Cinghialotta" },
+      "description": { "es": "Mortadela, trufa, pecorino toscano dulce y crema...", "it": "Mortadella, tartufo, pecorino toscano dolce e crema...", "en": "Mortadella, truffle, sweet Tuscan pecorino and cream...", "fr": "Mortadelle, truffe, pecorino toscan doux et crème...", "de": "Mortadella, Trüffel, süßer toskanischer Pecorino und Sahne..." }
+    },
+    "imperatrice": {
+      "name": { "es": "Emperatriz", "it": "Imperatrice", "en": "Empress", "fr": "Impératrice", "de": "Kaiserin" },
+      "description": { "es": "huevo, espárragos y crema de trufa negra", "it": "uovo, asparagi e crema di tartufo nero", "en": "egg, asparagus and black truffle cream", "fr": "œuf, asperges et crème de truffe noire", "de": "Ei, Spargel und schwarze Trüffelcreme" }
+    },
+    "snob": {
+      "name": { "es": "Snob", "it": "Snob", "en": "Snob", "fr": "Snob", "de": "Snob" },
+      "description": { "es": "Jamón crudo y alcachofas", "it": "Crudo e carciofini", "en": "Cured ham and artichokes", "fr": "Jambon cru et artichauts", "de": "Rohschinken und Artischocken" }
+    },
+    "5-formaggi-italiani": {
+      "name": { "es": "5 quesos italianos", "it": "5 formaggi italiani", "en": "5 Italian cheeses", "fr": "5 fromages italiens", "de": "5 italienische Käsesorten" },
+      "description": { "es": "5 quesos italianos", "it": "5 formaggi italiani", "en": "5 Italian cheeses", "fr": "5 fromages italiens", "de": "5 italienische Käsesorten" }
+    },
+    "al-prosciutto-cotto": {
+      "name": { "es": "Al jamón cocido", "it": "Al prosciutto cotto", "en": "With cooked ham", "fr": "Au jambon cuit", "de": "Mit gekochtem Schinken" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "cotto-e-funghi-2": {
+      "name": { "es": "Cotto e funghi", "it": "Cotto e funghi", "en": "Cotto e funghi", "fr": "Cotto e funghi", "de": "Cotto e funghi" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "porcavacca": {
+      "name": { "es": "PorcaVacca", "it": "PorcaVacca", "en": "PorcaVacca", "fr": "PorcaVacca", "de": "PorcaVacca" },
+      "description": { "es": "jamón cocido, boletus y 4 quesos", "it": "cotto, porcini e 4 formaggi", "en": "cooked ham, porcini and 4 cheeses", "fr": "jambon cuit, cèpes et 4 fromages", "de": "gekochter Schinken, Steinpilze und 4 Käsesorten" }
+    },
+    "ricotta-e-spinaci": {
+      "name": { "es": "Ricotta y espinacas", "it": "Ricotta e spinaci", "en": "Ricotta and spinach", "fr": "Ricotta et épinards", "de": "Ricotta und Spinat" },
+      "description": { "es": "jamón cocido, ricotta y espinacas", "it": "cotto, ricotta e spinaci", "en": "cooked ham, ricotta and spinach", "fr": "jambon cuit, ricotta et épinards", "de": "gekochter Schinken, Ricotta und Spinat" }
+    },
+    "ingredienti-classici": {
+      "name": { "es": "Ingredientes clásicos", "it": "Ingredienti classici", "en": "Classic toppings", "fr": "Ingrédients classiques", "de": "Klassische Zutaten" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "gamberi": {
+      "name": { "es": "Gambas", "it": "Gamberi", "en": "Prawns", "fr": "Gambas", "de": "Garnelen" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "frutti-di-mare-2": {
+      "name": { "es": "Mariscos", "it": "Frutti di mare", "en": "Seafood", "fr": "Fruits de mer", "de": "Meeresfrüchte" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "affettati": {
+      "name": { "es": "Embutidos", "it": "Affettati", "en": "Cured meats", "fr": "Charcuterie", "de": "Aufschnitt" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "formaggi": {
+      "name": { "es": "Quesos", "it": "Formaggi", "en": "Cheeses", "fr": "Fromages", "de": "Käse" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "rucola": {
+      "name": { "es": "Rúcula", "it": "Rucola", "en": "Rocket", "fr": "Roquette", "de": "Rucola" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "funghi-porcini": {
+      "name": { "es": "Boletus", "it": "Funghi porcini", "en": "Porcini mushrooms", "fr": "Cèpes", "de": "Steinpilze" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "uovo": {
+      "name": { "es": "Huevo", "it": "Uovo", "en": "Egg", "fr": "Œuf", "de": "Ei" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "doppia-mozzarella-mozzarella-fresca": {
+      "name": { "es": "Doble mozzarella, mozzarella fresca", "it": "Doppia mozzarella, mozzarella fresca", "en": "Double mozzarella, fresh mozzarella", "fr": "Double mozzarella, mozzarella fraîche", "de": "Doppelte Mozzarella, frische Mozzarella" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "mozzarella-di-bufala": {
+      "name": { "es": "Mozzarella de búfala", "it": "Mozzarella di bufala", "en": "Buffalo mozzarella", "fr": "Mozzarella de bufflonne", "de": "Büffelmozzarella" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "bresaola": {
+      "name": { "es": "Bresaola", "it": "Bresaola", "en": "Bresaola", "fr": "Bresaola", "de": "Bresaola" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    }
+  }
+}

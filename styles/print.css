@@ -1,0 +1,55 @@
+/* Al Circo Ristorante Pizzeria - Print Styles */
+
+@media print {
+    /* Hide elements not needed for printing */
+    .header, .footer, .nav-toggle, .language-switcher, .mobile-action-bar {
+        display: none !important;
+    }
+
+    /* Adjust hero section for print */
+    .hero {
+        page-break-before: always;
+        height: auto;
+        background: none !important;
+        color: var(--dark-brown) !important;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Optimize content layout for print */
+    .about, .menu, .awards, .contact {
+        page-break-inside: avoid;
+        margin-bottom: 2rem;
+    }
+
+    /* Ensure links are visible when printed */
+    a {
+        color: var(--dark-brown) !important;
+        text-decoration: underline !important;
+    }
+
+    /* Body and background for print */
+    body {
+        background-color: var(--white) !important;
+        color: var(--dark-brown) !important;
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+
+    /* Container optimization */
+    .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    /* Hide background images */
+    .hero, .about-image img, .menu-item-image, .award-badge img {
+        max-height: 120px;
+        object-fit: cover;
+    }
+}

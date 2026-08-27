@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Facebook OP meta -->
+        <meta property="og:title" content="Al Circo ristorante Italiano"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://alcircoristoranteitaliano.menu.is.it"/>
+        <meta property="og:image" content="https://alcircoristoranteitaliano.menu.is.it/img_catalogo/icons/fb_preview.jpg"/>
+        <meta property="og:description" content="Scopri il nostro menù"/>
+        <!-- Facebook OP meta end-->
+
+        <title>Homepage</title>
+
+        <link rel="icon" href="https://alcircoristoranteitaliano.menu.is.it/img_catalogo/icons/site_icon.png">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" href="https://alcircoristoranteitaliano.menu.is.it/../css/toastr.min.css">
+        
+        <link rel="stylesheet" href="https://alcircoristoranteitaliano.menu.is.it/../css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="https://alcircoristoranteitaliano.menu.is.it/../css/jquery.timepicker.min.css">
+        <link rel="stylesheet" href="https://alcircoristoranteitaliano.menu.is.it/css/dist/styles.min.css?v=27I26V">
+        <link rel="stylesheet" href="https://alcircoristoranteitaliano.menu.is.it/../css/icon-attribute.css">
+        <link rel="stylesheet" href="https://alcircoristoranteitaliano.menu.is.it/../css/css-loader.css">
+
+
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/jquery.min.js"></script>
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/bootstrap/bootstrap.min.js"></script>
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/jquery.timepicker.min.js"></script>
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/toastr.min.js"></script>
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/html2canvas.min.js"></script>
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/canvas2image.js"></script>
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/bootbox.min.js"></script>
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/he.js"></script>
+
+        <script src="https://alcircoristoranteitaliano.menu.is.it/../js/js.cookie.min.js?v=27I26V"></script>
+
+        <script type="text/javascript">
+            var content_popup_add_almost_1_element_to_cart = "Aggiungi almeno un elemento al carrello";
+        </script>
+
+        
+        
+        
+        
+        
+    </head>
+
+    <body style="touch-action: manipulation;">
+
+        
+        <div class="menu-header row">
+    
+     
+        <div class="header-brand">
+    
+        <img src="/img_catalogo/icons/logo_title.png?v=27I26V" onerror="this.style.display='none'"/>
+    </div>
+
+             <div id="home_button" class="left-anchor" data-mode="normal">
+            <a href="#">
+                <img src="/img_catalogo/icons/home-icon.png?v=27I26V"/>
+            </a>
+        </div>
+    
+
+
+                    
+    
+</div>
+        <div class="body-content">
+            <div class="container-fluid">
+                <div>
+                                        
+
+	<div id="no_cookie_alert" style="text-align:center; display:none">
+	    
+		<h3>ATTENZIONE!</h3>
+		<span>Sembra i cookies non siano abilitati in questo browser.<br/> Per utilizzare questo sito è neccessario abilitarli oppure cambiare browser.Grazie!</span>
+
+		<h3>ATTENTION!</h3>
+		<span>It seems that cookies are not enabled in this browser. <br/> To use this site it is necessary to enable them or change the browser. Thank you!</span>
+	</div>
+
+
+   <script type="text/javascript">
+
+	$(document).ready(function () {
+   		if(checkCookie()){
+
+	   		var start_lang = "";
+
+	   		var is_totem = "";
+
+		   	if(start_lang){
+		   		url= is_totem+"/Menus/"+userLang;
+		   	} else {
+				var userLang = navigator.language || navigator.userLanguage;
+				userLang = "df-"+userLang.split('-')[0];
+
+				var url = is_totem+"/Lang";
+				if(userLang != undefined){
+					url = is_totem+"/Menus/"+userLang;
+				} 
+			}
+			$(location).attr('href',url);
+		} else {
+			$("#no_cookie_alert").show();
+		}
+	});
+
+	function checkCookie(){
+	    var cookieEnabled = navigator.cookieEnabled;
+	    if (!cookieEnabled){ 
+	        document.cookie = "testcookie";
+	        cookieEnabled = document.cookie.indexOf("testcookie")!=-1;
+	    }
+	    return cookieEnabled;
+	}
+
+
+	</script>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+    
+        
+        
+        
+            
+            <div class="footer_link_container">
+                <a class="link_footer" style="width: 50%;" href="/privacy">
+                    <span>Privacy policy</span>
+                </a>
+                <span class="span_footer">|</span>
+                <a class="link_footer" style="width: 50%;" href="/cookie">
+                    <span>Cookie policy</span>
+                </a>
+            </div>
+
+
+                        
+
+                
+    </div>
+</footer>
+
+
+
+
+
+
+        
+        
+    
+    <script type="text/javascript">
+        /* fix body bottom-margin to not overlap footer */
+        var footer_height = $('footer > .row').height();
+        $('.body-content').css('margin-bottom', footer_height+20);
+
+        //when open keybord hide footer
+        $(document.body).append('<style>footer{visibility:hidden}@media(min-height:' + ($(window).height() - 75) + 'px){footer{visibility:visible}}</style>');
+
+
+        (function( win ){
+            var doc = win.document;
+            
+            // If there's a hash, or addEventListener is undefined, stop here
+            if( !location.hash && win.addEventListener ){
+                
+                //scroll to 1
+                window.scrollTo( 0, 1 );
+                var scrollTop = 1,
+                    getScrollTop = function(){
+                        return win.pageYOffset || doc.compatMode === "CSS1Compat" && doc.documentElement.scrollTop || doc.body.scrollTop || 0;
+                    },
+                
+                    //reset to 0 on bodyready, if needed
+                    bodycheck = setInterval(function(){
+                        if( doc.body ){
+                            clearInterval( bodycheck );
+                            scrollTop = getScrollTop();
+                            win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+                        }   
+                    }, 15 );
+                
+                win.addEventListener( "load", function(){
+                    setTimeout(function(){
+                        //at load, if user hasn't scrolled more than 20 or so...
+                        if( getScrollTop() < 20 ){
+                            //reset to hide addr bar at onload
+                            win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+                        }
+                    }, 0);
+                } );
+            }
+        })( this );
+    </script>
+
+
+        
+
+        <script src="https://alcircoristoranteitaliano.menu.is.it/js/dist/scripts.min.js?v=27I26V"></script>
+        <script type="text/javascript" id="cookieinfo" src="https://alcircoristoranteitaliano.menu.is.it/../js/banner_cookie.js" 
+            data-message="Usiamo i cookie per migliorare la tua esperienza. Continuando la navigazione accetti la nostra cookie policy."
+            data-linkmsg="Scopri come utilizziamo i cookie"
+            data-moreinfo="/cookie"
+            data-close-text="Accetta"
+        ></script>
+
+    </body>
+
+</html>

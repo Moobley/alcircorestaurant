@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self'; frame-src https://www.google.com https://api.whatsapp.com;">
+    <title>Al Circo Ristorante Pizzeria - Español</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.webp" alt="Al Circo Ristorante Pizzeria logo">
+                </a>
+            </div>
+            <nav class="nav" id="nav">
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#chisiamo">Quiénes Somos</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#riconoscimenti">Reconocimientos</a></li>
+                    <li><a href="#contatti">Contactos</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <a href="index.html" title="Español">🇪🇸</a>
+                <a href="index.it.html" title="Italiano">🇮🇹</a>
+                <a href="index.en.html" title="English">🇬🇧</a>
+                <a href="index.fr.html" title="Français">🇫🇷</a>
+                <a href="index.de.html" title="Deutsch">🇩🇪</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Ristorante Italiano Pizzeria</h1>
+                <p>Discendiamo da due importanti dinastie circensi</p>
+                <a href="https://www.tripadvisor.it/Restaurant_Review-g562819-d2208704-Reviews-Al_Circo_Ristorante_Italiano-Playa_del_Ingles_Maspalomas_San_Bartolome_de_Tirajan.html" class="btn-primary" target="_blank" rel="noopener noreferrer">Reserva en TripAdvisor</a>
+            </div>
+        </section>
+
+        <section id="chisiamo" class="about">
+            <div class="container">
+                <h2>Quiénes Somos</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Forse vi chiederete perché Al Circo…</p>
+                        <p>Discendiamo da due importanti dinastie circensi: Caroli e Belley-Medrano. Entrambe, molto antiche, viaggiano e si esibiscono attraverso l’Europa dal 1800.</p>
+                        <ul>
+                            <li>Importiamo dall’Italia tutti gli ingredienti italiani</li>
+                            <li>Carne, pesce y verdura sono a Km0</li>
+                            <li>Tutte le paste fresche, la pizza, i pani e i dolci sono di nostra producción</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/about-heritage.jpg" srcset="images/about-heritage.jpg 1x, images/about-heritage.jpg 2x" sizes="(min-width: 1024px) 50vw, 100vw" alt="Interior with circus photographs on walls" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Menú</h2>
+                <div class="menu-categories" id="menu-categories">
+                    <!-- Categories will be loaded from menu.json -->
+                </div>
+            </div>
+        </section>
+
+        <section id="riconoscimenti" class="awards">
+            <div class="container">
+                <h2>Reconocimientos</h2>
+                <div class="awards-grid">
+                    <div class="award-badge">
+                        <img src="images/award-excellence.png" alt="Certificato di Eccellenza TripAdvisor 2025">
+                        <h3>Certificato di Eccellenza 2025</h3>
+                        <p>Travellers' Choice Award</p>
+                    </div>
+                    <div class="award-badge">
+                        <img src="images/award-travellers-choice.png" alt="Travellers' Choice Award 2025">
+                        <h3>Travellers' Choice 2025</h3>
+                        <p>Premio TripAdvisor</p>
+                    </div>
+                </div>
+                <a href="https://www.tripadvisor.it/Restaurant_Review-g562819-d2208704-Reviews-Al_Circo_Ristorante_Italiano-Playa_del_Ingles_Maspalomas_San_Bartolome_de_Tirajan.html" class="award-tripadvisor" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logo.webp" alt="TripAdvisor">
+                    <span>Ver nuestras reseñas en TripAdvisor</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="contatti" class="contact">
+            <div class="container">
+                <h2>Contactos</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Donde Estamos</h3>
+                        <p>Avenida De Bonn, 23<br>
+                        Apartamentos Tinache<br>
+                        35100 Playa del Inglés, Maspalomas,<br>
+                        Gran Canaria España</p>
+                        
+                        <h3>Telefono</h3>
+                        <p><a href="tel:+34928765949">+34 928 76 59 49</a></p>
+                        
+                        <h3>WhatsApp</h3>
+                        <p><a href="https://api.whatsapp.com/send?phone=34608171862&text=Salve%2C%20vorrei%20maggiori%20informazioni" target="_blank" rel="noopener noreferrer">+34 608 17 18 62</a></p>
+                        
+                        <h3>Email</h3>
+                        <p><a href="mailto:alcirco@hotmail.com">alcirco@hotmail.com</a></p>
+                        
+                        <h3>Horarios</h3>
+                        <p>Lunes – Domingo: 18:00 – 00:00</p>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.123456789!2d-13.864908!3d27.876333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCs4OjMCs4!5e1!3m2!1sen!2ses!4v1234567890" width="600" height="450" style="border:0" allowfullscreen="" loading="lazy" title="Google Maps showing restaurant location"></iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-extra">
+                    <h3>Servicio a domicilio</h3>
+                    <p><a href="https://foodexpressgc.com/menu-al-circo-restuante-pizzera" target="_blank" rel="noopener noreferrer">Clicca e ordina online</a></p>
+                    
+                    <h3>Wi-Fi</h3>
+                    <p>Pide al personal la contraseña del día</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/alcircoristorante" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg aria-hidden="true"><!-- Facebook icon --></svg>
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/alcircoristoranteitaliano" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg aria-hidden="true"><!-- Instagram icon --></svg>
+                        Instagram
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.alcircoristoranteitaliano.it/privacy-policy/" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
+                    <a href="https://www.alcircoristoranteitaliano.it/cookie-policy/" target="_blank" rel="noopener noreferrer">Política de Cookies</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2025 Al Circo Ristorante Italiano Pizzeria. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

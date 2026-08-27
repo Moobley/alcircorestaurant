@@ -1,0 +1,461 @@
+{
+  "categories": {
+    "dolci": { "es": "Postres", "it": "Dolci Fatti in Casa", "en": "Homemade Desserts", "fr": "Desserts Maison", "de": "Hausgemachte Desserts" },
+    "menu-bambini": { "es": "Menú Infantil", "it": "Menu Bambini", "en": "Kids Menu", "fr": "Menu Enfants", "de": "Kindermenü" },
+    "vini": { "es": "Vinos", "it": "Vini", "en": "Wines", "fr": "Vins", "de": "Weine" },
+    "bevande": { "es": "Bebidas", "it": "Bevande", "en": "Drinks", "fr": "Boissons", "de": "Getränke" }
+  },
+  "subcategories": {
+    "bicchiere": { "es": "Copa", "it": "Bicchiere", "en": "By the Glass", "fr": "Au Verre", "de": "Im Glas" },
+    "vino-bianco": { "es": "Vino Blanco", "it": "Vino Bianco", "en": "White Wine", "fr": "Vin Blanc", "de": "Weißwein" },
+    "vino-rosso": { "es": "Vino Tinto", "it": "Vino Rosso", "en": "Red Wine", "fr": "Vin Rouge", "de": "Rotwein" },
+    "vino-rosato": { "es": "Vino Rosado", "it": "Vino Rosato", "en": "Rosé Wine", "fr": "Vin Rosé", "de": "Roséwein" },
+    "bibite": { "es": "Refrescos", "it": "Bibite", "en": "Soft Drinks", "fr": "Boissons Rafraîchissantes", "de": "Erfrischungsgetränke" },
+    "birra": { "es": "Cerveza", "it": "Birra", "en": "Beer", "fr": "Bière", "de": "Bier" },
+    "caffe": { "es": "Café & Co.", "it": "Caffè & Co.", "en": "Coffee & Co.", "fr": "Café & Co.", "de": "Kaffee & Co." },
+    "liquori": { "es": "Licores / Amargos", "it": "Liquori / Amari", "en": "Spirits / Bitters", "fr": "Liqueurs / Amers", "de": "Liköre / Bitter" },
+    "long-drinks": { "es": "Long Drinks", "it": "Long Drinks", "en": "Long Drinks", "fr": "Long Drinks", "de": "Long Drinks" }
+  },
+  "items": {
+    "calzone-dolce-lactose-free": {
+      "name": { "es": "CALZONE DOLCE LACTOSE FREE", "it": "CALZONE DOLCE LACTOSE FREE", "en": "SWEET CALZONE LACTOSE FREE", "fr": "CALZONE SUCRÉ SANS LACTOSE", "de": "SÜSSER CALZONE LACTOSEFREI" },
+      "description": { "es": "Mini calzone frito relleno de fruta fresca y queso...", "it": "Mini calzone fritto ripieno di frutta fresca e formaggio...", "en": "Mini fried calzone filled with fresh fruit and cheese...", "fr": "Mini calzone frit garni de fruits frais et de fromage...", "de": "Mini-frittierter Calzone gefüllt mit frischem Obst und Käse..." }
+    },
+    "tagliere-di-formaggi": {
+      "name": { "es": "Tabla de quesos", "it": "Tagliere di formaggi", "en": "Cheese board", "fr": "Planche de fromages", "de": "Käsebrett" },
+      "description": { "es": "con una selección de miel y mermeladas", "it": "con fantasia di miele e marmellate", "en": "with a selection of honey and jams", "fr": "avec un assortiment de miel et de confitures", "de": "mit einer Auswahl an Honig und Marmeladen" }
+    },
+    "tiramisu": {
+      "name": { "es": "Tiramisú", "it": "Tiramisù", "en": "Tiramisù", "fr": "Tiramisù", "de": "Tiramisù" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "torta-di-mele": {
+      "name": { "es": "Tarta de manzana", "it": "Torta di mele", "en": "Apple cake", "fr": "Tarte aux pommes", "de": "Apfelkuchen" },
+      "description": { "es": "con canela y caramelo", "it": "con cannella e caramello", "en": "with cinnamon and caramel", "fr": "à la cannelle et au caramel", "de": "mit Zimt und Karamell" }
+    },
+    "salame-di-cioccolato": {
+      "name": { "es": "Salame de chocolate", "it": "Salame di cioccolato", "en": "Chocolate salami", "fr": "Salami au chocolat", "de": "Schokoladensalami" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "panna-cotta": {
+      "name": { "es": "Panna cotta", "it": "Panna Cotta", "en": "Panna cotta", "fr": "Panna cotta", "de": "Panna cotta" },
+      "description": { "es": "chocolate, caramelo o reducción de fruta fresca", "it": "cioccolato, caramello o riduzione di frutta fresca", "en": "chocolate, caramel or fresh fruit reduction", "fr": "chocolat, caramel ou réduction de fruits frais", "de": "Schokolade, Karamell oder Reduktion aus frischem Obst" }
+    },
+    "focaccia-con-nutella": {
+      "name": { "es": "Focaccia con Nutella", "it": "Focaccia con nutella", "en": "Focaccia with Nutella", "fr": "Focaccia à la Nutella", "de": "Focaccia mit Nutella" },
+      "description": { "es": "Un capricho dulce para compartir", "it": "Un dolce sfizio da condividere", "en": "A sweet treat to share", "fr": "Une douce gourmandise à partager", "de": "Eine süße Versuchung zum Teilen" }
+    },
+    "gelato": {
+      "name": { "es": "Helado", "it": "Gelato", "en": "Gelato", "fr": "Glace", "de": "Gelato" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "frutta-fresca": {
+      "name": { "es": "Fruta fresca", "it": "Frutta fresca", "en": "Fresh fruit", "fr": "Fruits frais", "de": "Frisches Obst" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "affogato": {
+      "name": { "es": "Café affogato", "it": "Affogato", "en": "Espresso affogato", "fr": "Café affogato", "de": "Affogato" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "pizza-margherita": {
+      "name": { "es": "Pizza Margherita", "it": "Pizza Margherita", "en": "Pizza Margherita", "fr": "Pizza Margherita", "de": "Pizza Margherita" },
+      "description": { "es": "Pizza Margherita", "it": "Pizza Margherita", "en": "Pizza Margherita", "fr": "Pizza Margherita", "de": "Pizza Margherita" }
+    },
+    "pizza-cotto": {
+      "name": { "es": "Pizza Cotto", "it": "Pizza Cotto", "en": "Ham Pizza", "fr": "Pizza au jambon", "de": "Pizza Cotto" },
+      "description": { "es": "Pizza de jamón cocido", "it": "Pizza cotto", "en": "Cooked ham pizza", "fr": "Pizza au jambon cuit", "de": "Pizza mit gekochtem Schinken" }
+    },
+    "pasta-bolognese": {
+      "name": { "es": "Pasta a la boloñesa", "it": "Pasta Bolognese", "en": "Pasta Bolognese", "fr": "Pâtes à la bolognaise", "de": "Nudeln Bolognese" },
+      "description": { "es": "Pasta a la boloñesa", "it": "Pasta Bolognese", "en": "Pasta Bolognese", "fr": "Pâtes à la bolognaise", "de": "Nudeln Bolognese" }
+    },
+    "pasta-napoli": {
+      "name": { "es": "Pasta Nápoles", "it": "Pasta Napoli", "en": "Pasta Napoli", "fr": "Pâtes Napoli", "de": "Nudeln Napoli" },
+      "description": { "es": "Pasta con tomate", "it": "Pasta pomodoro", "en": "Pasta with tomato sauce", "fr": "Pâtes à la sauce tomate", "de": "Nudeln mit Tomatensauce" }
+    },
+    "pollo-milanese": {
+      "name": { "es": "Pollo milanesa", "it": "Pollo Milanese", "en": "Milanese chicken", "fr": "Escalope de poulet milanaise", "de": "Mailänder Hähnchenschnitzel" },
+      "description": { "es": "Pollo milanesa con patatas fritas", "it": "Pollo Milanese con patate fritte", "en": "Milanese chicken with french fries", "fr": "Escalope de poulet milanaise avec frites", "de": "Mailänder Hähnchenschnitzel mit Pommes frites" }
+    },
+    "remole-bianco-toscana-frescobaldi-new": {
+      "name": { "es": "Remole Blanco (Toscana) - Frescobaldi **NEW**", "it": "Remole Bianco (Toscana) - Frescobaldi **NEW**", "en": "Remole Bianco (Tuscany) - Frescobaldi **NEW**", "fr": "Remole Bianco (Toscane) - Frescobaldi **NEW**", "de": "Remole Bianco (Toskana) - Frescobaldi **NEW**" },
+      "description": { "es": "El Remole blanco 2021 se presenta de color amarillo pajizo claro. En nariz predominan frutas delicadas como la manzana golden y el melón de invierno, además de notas de frutas exóticas como la carambola. Floral con toques de glicinia y retama. En boca es fresco y sabroso.", "it": "Remole bianco 2021 si presenta di colore giallo paglierino chiaro. Al naso prevalgono frutti delicati come la mela golden e il melone invernale, oltre a note di frutti esotici come la carambola. Floreale con sentori di glicine e ginestra. Al palato è fresco e sapido.", "en": "The Remole Bianco 2021 shows a clear straw-yellow colour. On the nose, delicate fruit such as golden apple and winter melon prevail, along with notes of exotic fruit like starfruit. Floral with hints of wisteria and broom. On the palate it is fresh and savoury.", "fr": "Le Remole blanc 2021 se présente avec une couleur jaune paille clair. Au nez, des fruits délicats comme la pomme golden et le melon d'hiver prédominent, avec des notes de fruits exotiques tels que la carambole. Floral avec des senteurs de glycine et de genêt. En bouche, il est frais et savoureux.", "de": "Der Remole Bianco 2021 präsentiert sich in hellem Strohgelb. In der Nase dominieren zarte Früchte wie Goldener Apfel und Wintermelone, dazu Noten von exotischen Früchten wie Sternfrucht. Blumig mit Anklängen von Glyzinie und Ginster. Am Gaumen frisch und mineralisch." }
+    },
+    "chardonnay-bordinese": {
+      "name": { "es": "Chardonnay Bordinese", "it": "Chardonnay Bordinese", "en": "Chardonnay Bordinese", "fr": "Chardonnay Bordinese", "de": "Chardonnay Bordinese" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "sauvignon-borgo-conventi": {
+      "name": { "es": "Sauvignon - Borgo Conventi", "it": "Sauvignon - Borgo Conventi", "en": "Sauvignon - Borgo Conventi", "fr": "Sauvignon - Borgo Conventi", "de": "Sauvignon - Borgo Conventi" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "il-pumo-negramaro-san-marzano": {
+      "name": { "es": "Il Pumo Negramaro - San Marzano", "it": "Il Pumo Negramaro - San Marzano", "en": "Il Pumo Negramaro - San Marzano", "fr": "Il Pumo Negramaro - San Marzano", "de": "Il Pumo Negramaro - San Marzano" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "remole-rosso-toscana-frescobaldi-new": {
+      "name": { "es": "Remole Rojo (Toscana) - Frescobaldi **NEW*", "it": "Remole Rosso (Toscana) - Frescobaldi **NEW*", "en": "Remole Rosso (Tuscany) - Frescobaldi **NEW*", "fr": "Remole Rosso (Toscane) - Frescobaldi **NEW*", "de": "Remole Rosso (Toskana) - Frescobaldi **NEW*" },
+      "description": { "es": "El Remole Rosso 2021 presenta un bonito color rojo púrpura. En nariz se manifiesta con su carácter afrutado, con intensos aromas a frutos rojos y negros, pequeños frutos del bosque como arándano, grosella y frambuesa, y frutas maduras como ciruela y cereza.", "it": "Remole Rosso 2021 si presenta con un bel colore rosso porpora. Al naso si manifesta con il suo carattere fruttato, con intensi sentori di frutti rossi e neri, piccoli frutti di bosco come mirtillo, ribes, lampone e frutti maturi come prugna e ciliegia.", "en": "The Remole Rosso 2021 shows a beautiful purple-red colour. On the nose it reveals its fruity character, with intense notes of red and black fruit, small berries such as blueberry, currant and raspberry, and ripe fruit such as plum and cherry.", "fr": "Le Remole Rosso 2021 présente une belle couleur rouge pourpre. Au nez, il dévoile son caractère fruité, avec d'intenses senteurs de fruits rouges et noirs, de petits fruits des bois comme la myrtille, la groseille et la framboise, et de fruits mûrs comme la prune et la cerise.", "de": "Der Remole Rosso 2021 präsentiert sich in einem schönen Purpurrot. In der Nase zeigt er seinen fruchtigen Charakter mit intensiven Noten roter und schwarzer Früchte, kleiner Beeren wie Heidelbeere, Johannisbeere und Himbeere sowie reifer Früchte wie Pflaume und Kirsche." }
+    },
+    "montepulciano-bordinese": {
+      "name": { "es": "Montepulciano - Bordinese", "it": "Montepulciano - Bordinese", "en": "Montepulciano - Bordinese", "fr": "Montepulciano - Bordinese", "de": "Montepulciano - Bordinese" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "chianti-castello-di-selvole": {
+      "name": { "es": "Chianti - castello di Selvole", "it": "Chianti - castello di Selvole", "en": "Chianti - Castello di Selvole", "fr": "Chianti - castello di Selvole", "de": "Chianti - Castello di Selvole" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "rioja-750-ml-marques-de-altillo": {
+      "name": { "es": "Rioja 750 ml - Marqués de Altillo", "it": "Rioja 750 ml - Marqués de Altillo", "en": "Rioja 750 ml - Marqués de Altillo", "fr": "Rioja 750 ml - Marqués de Altillo", "de": "Rioja 750 ml - Marqués de Altillo" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "bardolino-rosato-santa-sofia": {
+      "name": { "es": "Bardolino Rosado - Santa Sofía", "it": "Bardolino Rosato - Santa Sofía", "en": "Bardolino Rosato - Santa Sofía", "fr": "Bardolino Rosato - Santa Sofía", "de": "Bardolino Rosato - Santa Sofía" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "prosecco-d-o-c-treviso-brut-dal-bello": {
+      "name": { "es": "Prosecco D.O.C. Treviso Brut - dal Bello", "it": "Prosecco D.O.C. Treviso Brut - dal Bello", "en": "Prosecco D.O.C. Treviso Brut - dal Bello", "fr": "Prosecco D.O.C. Treviso Brut - dal Bello", "de": "Prosecco D.O.C. Treviso Brut - dal Bello" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "lambrusco-rosso-primabolla": {
+      "name": { "es": "Lambrusco Rojo Primabolla", "it": "Lambrusco Rosso Primabolla", "en": "Lambrusco Rosso Primabolla", "fr": "Lambrusco Rosso Primabolla", "de": "Lambrusco Rosso Primabolla" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "chardonnay-bordinese-2": {
+      "name": { "es": "Chardonnay Bordinese", "it": "Chardonnay Bordinese", "en": "Chardonnay Bordinese", "fr": "Chardonnay Bordinese", "de": "Chardonnay Bordinese" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "remole-toscana-frescobaldi": {
+      "name": { "es": "Remole (Toscana) - Frescobaldi", "it": "Remole (Toscana) - Frescobaldi", "en": "Remole (Tuscany) - Frescobaldi", "fr": "Remole (Toscane) - Frescobaldi", "de": "Remole (Toskana) - Frescobaldi" },
+      "description": { "es": "El Remole blanco 2021 se presenta de color amarillo pajizo claro. En nariz predominan frutas delicadas como la manzana golden y el melón de invierno, además de notas de frutas exóticas como la carambola. Floral con toques de glicinia y retama. En boca es fresco y sabroso.", "it": "Remole bianco 2021 si presenta di colore giallo paglierino chiaro. Al naso prevalgono frutti delicati come la mela golden e il melone invernale, oltre a note di frutti esotici come la carambola. Floreale con sentori di glicine e ginestra. Al palato è fresco e sapido.", "en": "The Remole Bianco 2021 shows a clear straw-yellow colour. On the nose, delicate fruit such as golden apple and winter melon prevail, along with notes of exotic fruit like starfruit. Floral with hints of wisteria and broom. On the palate it is fresh and savoury.", "fr": "Le Remole blanc 2021 se présente avec une couleur jaune paille clair. Au nez, des fruits délicats comme la pomme golden et le melon d'hiver prédominent, avec des notes de fruits exotiques tels que la carambole. Floral avec des senteurs de glycine et de genêt. En bouche, il est frais et savoureux.", "de": "Der Remole Bianco 2021 präsentiert sich in hellem Strohgelb. In der Nase dominieren zarte Früchte wie Goldener Apfel und Wintermelone, dazu Noten von exotischen Früchten wie Sternfrucht. Blumig mit Anklängen von Glyzinie und Ginster. Am Gaumen frisch und mineralisch." }
+    },
+    "gavi-ca-bianca": {
+      "name": { "es": "Gavi - Ca' Bianca", "it": "Gavi - Ca' Bianca", "en": "Gavi - Ca' Bianca", "fr": "Gavi - Ca' Bianca", "de": "Gavi - Ca' Bianca" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "sauvignon-borgo-conventi-2": {
+      "name": { "es": "Sauvignon - Borgo Conventi", "it": "Sauvignon - Borgo Conventi", "en": "Sauvignon - Borgo Conventi", "fr": "Sauvignon - Borgo Conventi", "de": "Sauvignon - Borgo Conventi" },
+      "description": { "es": "Color amarillo pajizo con reflejos ligeramente verdosos. Aroma muy intenso, amplio y característico, con notas fragantes que recuerdan al higo y a las hojas de ortiga, a la salvia y a la hoja de tomate, al melocotón y al albaricoque pasado. En boca es correspondiente, fresco y elegante, con buena estructura y persistencia aromática. Maridaje gastronómico: mariscos, espárragos, aves, tortillas de verduras, cocina oriental.", "it": "Colore giallo paglierino con riflessi leggermente verdognoli., Aroma molto intenso, ampio e caratteristico, con note fragranti che ricordano il fico e le foglie di ortica, la salvia e la foglia di pomodoro, la pesca e l’albicocca appassita., Al gusto è corrispondente, fresco ed elegante, con buona struttura e persistenza aromatica., Abbinamento gastronomico: Frutti di mare, asparagi, pollame, frittate alle verdure, cucina orientale.", "en": "Straw-yellow colour with slightly greenish reflections. Very intense, broad and characteristic aroma, with fragrant notes reminiscent of fig and nettle leaves, sage and tomato leaf, peach and dried apricot. On the palate it is corresponding, fresh and elegant, with good structure and aromatic persistence. Food pairing: seafood, asparagus, poultry, vegetable omelettes, oriental cuisine.", "fr": "Couleur jaune paille avec des reflets légèrement verdâtres. Arôme très intense, ample et caractéristique, avec des notes fragantes rappelant la figue et les feuilles d'ortie, la sauge et la feuille de tomate, la pêche et l'abricot séché. En bouche, il est franc, frais et élégant, avec une bonne structure et une persistance aromatique. Accords : fruits de mer, asperges, volaille, omelettes aux légumes, cuisine orientale.", "de": "Strohgelb mit leicht grünlichen Reflexen. Sehr intensives, breites und charakteristisches Aroma mit frischen Noten von Feige und Brennnesselblättern, Salbei und Tomatenblatt, Pfirsich und getrockneter Aprikose. Am Gaumen entsprechend frisch und elegant, mit guter Struktur und aromatischer Länge. Speiseempfehlung: Meeresfrüchte, Spargel, Geflügel, Gemüseomeletts, orientalische Küche." }
+    },
+    "greco-di-tufo-mastroberardino": {
+      "name": { "es": "Greco di Tufo - Mastroberardino", "it": "Greco di Tufo - Mastroberardino", "en": "Greco di Tufo - Mastroberardino", "fr": "Greco di Tufo - Mastroberardino", "de": "Greco di Tufo - Mastroberardino" },
+      "description": { "es": "Vino amarillo pajizo luminoso, con notas de fruta madura que recuerdan al melocotón y al albaricoque. El gusto es suave y aterciopelado, con un agradable toque mineral. Ideal para maridar con una parrillada de mariscos.", "it": "Vino giallo paglierino luminoso, con note di frutta matura che richiamano la pesca e l'albicocca., Il gusto morbido e vellutato, con una piacevole nota minerale., Ideale l'abbinamento con la grigliata di crostacei.", "en": "A bright straw-yellow wine with notes of ripe fruit recalling peach and apricot. The taste is soft and velvety, with a pleasant mineral note. Ideal paired with a grilled shellfish platter.", "fr": "Vin jaune paille lumineux, avec des notes de fruits mûrs rappelant la pêche et l'abricot. Le goût est doux et velouté, avec une agréable note minérale. Idéal en accompagnement d'une grillade de crustacés.", "de": "Ein leuchtendes, strohgelbes Wein mit Noten von reifem Obst, die an Pfirsich und Aprikose erinnern. Der Geschmack ist weich und samtig, mit einer angenehmen mineralischen Note. Ideal zu gegrillten Schalentieren." }
+    },
+    "gewurztraminer-weindorf": {
+      "name": { "es": "Gewürztraminer - Weindorf", "it": "Gewürztraminer - Weindorf", "en": "Gewürztraminer - Weindorf", "fr": "Gewürztraminer - Weindorf", "de": "Gewürztraminer - Weindorf" },
+      "description": { "es": "Tiene un color amarillo pajizo y un aroma fino e intenso; sostenido por un cuerpo fuerte pero a la vez armonioso.", "it": "Ha un colore giallo paglierino e un aroma fine e intenso; supportato da un corpo forte ma armonioso al tempo stesso.", "en": "It has a straw-yellow colour and a fine, intense aroma; supported by a body that is strong yet harmonious at the same time.", "fr": "Il a une couleur jaune paille et un arôme fin et intense ; porté par un corps puissant mais harmonieux à la fois.", "de": "Er hat eine strohgelbe Farbe und ein feines, intensives Aroma; getragen von einem kräftigen, zugleich aber harmonischen Körper." }
+    },
+    "prosecco-d-o-c-treviso-brut-dal-bello-2": {
+      "name": { "es": "Prosecco D.O.C. Treviso Brut - dal Bello", "it": "Prosecco D.O.C. Treviso Brut - dal Bello", "en": "Prosecco D.O.C. Treviso Brut - dal Bello", "fr": "Prosecco D.O.C. Treviso Brut - dal Bello", "de": "Prosecco D.O.C. Treviso Brut - dal Bello" },
+      "description": { "es": "Color amarillo pajizo con reflejos verdosos. Destacan las notas afrutadas de manzana verde. Sabor seco y sabroso. Maridaje: entrantes a base de pescado.", "it": "Colore giallo paglierino con riflessi verdognoli., Spiccano le note fruttate di mela verde., Sapore secco e sapido., Abbinamento: Antipasti a base di pesce.", "en": "Straw-yellow colour with greenish reflections. Green apple fruity notes stand out. Dry and savoury taste. Pairing: fish-based starters.", "fr": "Couleur jaune paille avec des reflets verdâtres. Les notes fruitées de pomme verte se distinguent. Goût sec et savoureux. Accords : entrées à base de poisson.", "de": "Strohgelb mit grünlichen Reflexen. Hervorstechend sind fruchtige Noten von grünem Apfel. Trockener und herzhafter Geschmack. Empfehlung: Vorspeisen mit Fisch." }
+    },
+    "montepulciano-bordinese-2": {
+      "name": { "es": "Montepulciano Bordinese", "it": "Montepulciano Bordinese", "en": "Montepulciano Bordinese", "fr": "Montepulciano Bordinese", "de": "Montepulciano Bordinese" },
+      "description": { "es": "Aromático a cereza y frutos rojos, este refrescante tinto italiano de cuerpo medio es perfecto con pasta o pizza.", "it": "Profumato di ciliegia e frutti rossi, questo rosso italiano rinfrescante di medio corpo è perfetto con pasta o pizza.", "en": "Aromatic with cherry and red fruit, this refreshing medium-bodied Italian red is perfect with pasta or pizza.", "fr": "Parfumé à la cerise et aux fruits rouges, ce rouge italien rafraîchissant de corps moyen est parfait avec des pâtes ou une pizza.", "de": "Aromatisch nach Kirsche und roten Früchten, ist dieser erfrischende, mittelkräftige italienische Rotwein perfekt zu Pasta oder Pizza." }
+    },
+    "remole-toscana-frescobaldi-2": {
+      "name": { "es": "Remole (Toscana) - Frescobaldi", "it": "Remole (Toscana) - Frescobaldi", "en": "Remole (Tuscany) - Frescobaldi", "fr": "Remole (Toscane) - Frescobaldi", "de": "Remole (Toskana) - Frescobaldi" },
+      "description": { "es": "El Remole Rosso 2021 presenta un bonito color rojo púrpura. En nariz se manifiesta con su carácter afrutado, con intensos aromas a frutos rojos y negros, pequeños frutos del bosque como arándano, grosella y frambuesa, y frutas maduras como ciruela y cereza.", "it": "Remole Rosso 2021 si presenta con un bel colore rosso porpora. Al naso si manifesta con il suo carattere fruttato, con intensi sentori di frutti rossi e neri, piccoli frutti di bosco come mirtillo, ribes, lampone e frutti maturi come prugna e ciliegia.", "en": "The Remole Rosso 2021 shows a beautiful purple-red colour. On the nose it reveals its fruity character, with intense notes of red and black fruit, small berries such as blueberry, currant and raspberry, and ripe fruit such as plum and cherry.", "fr": "Le Remole Rosso 2021 présente une belle couleur rouge pourpre. Au nez, il dévoile son caractère fruité, avec d'intenses senteurs de fruits rouges et noirs, de petits fruits des bois comme la myrtille, la groseille et la framboise, et de fruits mûrs comme la prune et la cerise.", "de": "Der Remole Rosso 2021 präsentiert sich in einem schönen Purpurrot. In der Nase zeigt er seinen fruchtigen Charakter mit intensiven Noten roter und schwarzer Früchte, kleiner Beeren wie Heidelbeere, Johannisbeere und Himbeere sowie reifer Früchte wie Pflaume und Kirsche." }
+    },
+    "il-pumo-negramaro-san-marzano-2": {
+      "name": { "es": "Il Pumo Negramaro - San Marzano", "it": "Il Pumo Negramaro - San Marzano", "en": "Il Pumo Negramaro - San Marzano", "fr": "Il Pumo Negramaro - San Marzano", "de": "Il Pumo Negramaro - San Marzano" },
+      "description": { "es": "Rojo intenso y persistente con reflejos violáceos-negros, con grosella negra y aroma a frutos del bosque, especiado, con notas de tomillo. Un vino corpulento, suave y equilibrado, largo y agradable en el final. Maridajes: excelente con primeros platos vegetarianos, todo tipo de platos de carne y quesos curados.", "it": "Rosso intenso e persistente con riflessi violacei-neri, con ribes nero e profumo di frutti di bosco, speziato, con note di timo., Un vino di corpo, morbido ed equilibrato, lungo e piacevole nel finale., Abbinamenti: Ottimo con primi piatti vegetariani, tutti i tipi di piatti di carne e formaggi stagionati.", "en": "Intense, persistent red with violet-black reflections, blackcurrant and forest-fruit aromas, spicy with notes of thyme. A full-bodied, soft and balanced wine, long and pleasant on the finish. Pairings: excellent with vegetarian first courses, all kinds of meat dishes and aged cheeses.", "fr": "Rouge intense et persistant aux reflets violacés-noirs, avec du cassis et des arômes de fruits des bois, épicé, avec des notes de thym. Un vin de corps, souple et équilibré, long et agréable en finale. Accords : excellent avec les premiers plats végétariens, tous les types de plats de viande et les fromages affinés.", "de": "Intensives, anhaltendes Rot mit violett-schwarzen Reflexen, schwarzen Johannisbeeren und Aromen von Waldbeeren, würzig mit Noten von Thymian. Ein vollmundiger, weicher und ausgewogener Wein, lang und angenehm im Abgang. Empfehlung: ausgezeichnet zu vegetarischen Vorspeisen, allen Arten von Fleischgerichten und gereiftem Käse." }
+    },
+    "chianti-castiglioni-frescobaldi": {
+      "name": { "es": "Chianti Castiglioni - Frescobaldi", "it": "Chianti Castiglioni - Frescobaldi", "en": "Chianti Castiglioni - Frescobaldi", "fr": "Chianti Castiglioni - Frescobaldi", "de": "Chianti Castiglioni - Frescobaldi" },
+      "description": { "es": ",", "it": ",", "en": ",", "fr": ",", "de": "," }
+    },
+    "lambrusco-rosso-primabolla-2": {
+      "name": { "es": "Lambrusco Rojo Primabolla", "it": "Lambrusco Rosso Primabolla", "en": "Lambrusco Rosso Primabolla", "fr": "Lambrusco Rosso Primabolla", "de": "Lambrusco Rosso Primabolla" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "ripasso-valpolicella-santa-sofia": {
+      "name": { "es": "Ripasso Valpolicella - Santa Sofía", "it": "Ripasso Valpolicella - Santa Sofía", "en": "Ripasso Valpolicella - Santa Sofía", "fr": "Ripasso Valpolicella - Santa Sofía", "de": "Ripasso Valpolicella - Santa Sofía" },
+      "description": { "es": "Color: rubí luminoso. En el análisis olfativo emergen agradables aromas de mermelada de arándanos, guindas, clavo, un sutil aroma de nuez moscada y tostados. En boca es envolvente, suave y complejo, con buena presencia tánica en fase de integración. Maridajes: excelente para sorber durante toda la comida, merece la pena probarlo con pici con ragú de jabalí para un hermanamiento véneto-toscano.", "it": "Colore: Rubino luminoso., All’analisi olfattiva emergono piacevoli aromi di marmellata di mirtilli, amarene, chiodi di garofano, un sottile aroma di noce moscata e tostatura., Al sorso è avvolgente, morbido e complesso, con buona presenza tannica in fase di integrazione., Abbinamenti: Ottimo da sorseggiare a tutto pasto, è da provare con i pici al sugo di cinghiale per un gemellaggio veneto-toscano.", "en": "Colour: luminous ruby. On the nose, pleasant aromas of blueberry jam, sour cherries, cloves, and a subtle hint of nutmeg and toast emerge. On the palate it is enveloping, soft and complex, with well-integrated tannins. Pairings: excellent for sipping throughout the meal; try it with pici in wild boar sauce for a Veneto-Tuscan pairing.", "fr": "Couleur : rubis lumineux. À l'analyse olfactive, d'agréables arômes de confiture de myrtilles, de griottes, de clous de girofle, un subtil arôme de noix de muscade et de toasté se dégagent. En bouche, il est enveloppant, souple et complexe, avec une bonne présence tannique en phase d'intégration. Accords : excellent à siroter tout au long du repas, à essayer avec des pici à la sauce de sanglier pour un jumelage vénétien-toscan.", "de": "Farbe: leuchtendes Rubinrot. In der Nase zeigen sich angenehme Aromen von Heidelbeermarmelade, Sauerkirschen, Nelken sowie ein subtiler Hauch von Muskatnuss und Röstnoten. Am Gaumen umhüllend, weich und komplex, mit gut integrierten Tanninen. Empfehlung: hervorragend zum Genießen während des gesamten Essens; probieren Sie ihn zu Pici mit Wildschweinragù für eine venetisch-toskanische Kombination." }
+    },
+    "chianti-rufina-nipozzano": {
+      "name": { "es": "Chianti Rufina Nipozzano", "it": "Chianti Rufina Nipozzano", "en": "Chianti Rufina Nipozzano", "fr": "Chianti Rufina Nipozzano", "de": "Chianti Rufina Nipozzano" },
+      "description": { "es": "El Nipozzano 2019 presenta un color rojo rubí vivo. Al olfato se caracteriza por aromas afrutados como frutos del bosque, guinda y elegantes notas florales; maravillosa la frescura expresada mediante notas balsámicas. Le siguen notas tostadas y especiadas de pimienta, nuez moscada y café. En boca es rico, caracterizado por la elegante densidad de la fruta y la frescura mineral final que lo hacen equilibrado y persistente. La trama tánica es tupida pero no áspera. Espléndida la correspondencia gusto-olfativa.", "it": "Nipozzano 2019 presenta un colore rosso rubino vivace., All’olfatto è caratterizzato da sentori fruttati come frutti di bosco, amarena ed eleganti note floreali; meravigliosa la freschezza espressa tramite sentori balsamici. Seguono poi note tostate e speziate di pepe, noce moscata e caffè., Il palato è ricco, caratterizzato dall’elegante densità del frutto e dalla freschezza minerale finale che lo rendono equilibrato e persistente., La trama tannica è fitta ma non graffiante. Splendida la rispondenza gusto-olfattiva.", "en": "Nipozzano 2019 shows a lively ruby-red colour. On the nose it is characterised by fruity notes such as forest fruit, sour cherry and elegant floral notes; the freshness expressed through balsamic notes is wonderful. These are followed by toasted and spicy notes of pepper, nutmeg and coffee. The palate is rich, marked by the elegant density of the fruit and a final mineral freshness that make it balanced and persistent. The tannic texture is dense but not astringent. The gustatory-olfactory correspondence is splendid.", "fr": "Le Nipozzano 2019 présente une couleur rouge rubis vif. Au nez, il se caractérise par des notes fruitées de fruits des bois, de griotte et d'élégantes notes florales ; la fraîcheur exprimée par des senteurs balsamiques est merveilleuse. Suivent des notes toastées et épicées de poivre, de noix de muscade et de café. Le palais est riche, marqué par l'élégante densité du fruit et une fraîcheur minérale finale qui le rendent équilibré et persistant. La trame tannique est dense mais non astringente. La correspondance gustative-olfactive est splendide.", "de": "Der Nipozzano 2019 präsentiert sich in einer lebendigen Rubinrot-Farbe. In der Nase geprägt von fruchtigen Noten wie Waldbeeren, Sauerkirsche und eleganten blumigen Anklängen; wunderbar ist die Frische, die durch balsamische Noten zum Ausdruck kommt. Es folgen geröstete und würzige Noten von Pfeffer, Muskatnuss und Kaffee. Am Gaumen reichhaltig, geprägt von der eleganten Dichte der Frucht und einer finalen mineralischen Frische, die ihn ausgewogen und anhaltend machen. Das Tanningerüst ist dicht, aber nicht kratzig. Die Geschmacks-Nasen-Korrespondenz ist großartig." }
+    },
+    "barolo-ca-bianca": {
+      "name": { "es": "Barolo - Ca' Bianca", "it": "Barolo - Ca' Bianca", "en": "Barolo - Ca' Bianca", "fr": "Barolo - Ca' Bianca", "de": "Barolo - Ca' Bianca" },
+      "description": { "es": "Color: granate tendente al azul intenso. Perfume: intensos aromas de marasca madura, especias y ligeros matices de cuero. Gusto: tanicidad suave y buena frescura, con un aristocrático retrogusto a regaliz.", "it": "Colore: Granato tendente al blu carico., Profumo: Profumi intensi di marasca matura, spezie e leggere sfumature di cuoio., Gusto: Morbida tannicità e di buona freschezza, con aristocratico retrogusto di liquirizia.", "en": "Colour: garnet tending towards deep blue. Nose: intense aromas of ripe morello cherry, spices and light hints of leather. Palate: soft tannins and good freshness, with an aristocratic liquorice aftertaste.", "fr": "Couleur : grenat tendant vers un bleu profond. Nez : arômes intenses de griotte mûre, d'épices et de légères nuances de cuir. Goût : tanins souples et bonne fraîcheur, avec un arrière-goût aristocratique de réglisse.", "de": "Farbe: Granat, ins Tiefblaue tendierend. Duft: intensive Aromen reifer Sauerkirschen, Gewürze und leichte Lederanklänge. Geschmack: weiche Tannine und gute Frische, mit einem aristokratischen Lakritz-Abgang." }
+    },
+    "rioja-marques-de-altillo": {
+      "name": { "es": "Rioja - Marqués de Altillo", "it": "Rioja - Marqués de Altillo", "en": "Rioja - Marqués de Altillo", "fr": "Rioja - Marqués de Altillo", "de": "Rioja - Marqués de Altillo" },
+      "description": { "es": "Color cereza oscuro con reflejos violáceos. Aromas potentes de frutos rojos, fresas y flores. Sabor fresco y suave, con intensidad afrutada y un retrogusto largo y agradable. Maridajes: un vino maravilloso para acompañar diversos platos, entre ellos carnes rojas, pasta, quesos o ensaladas.", "it": "Colore ciliegia scuro con riflessi violacei., Profumi potenti di frutti rossi, fragole e fiori., Sapore fresco e morbido, con intensità fruttata e retrogusto lungo e piacevole., Abbinamenti: Un vino meraviglioso per accompagnare vari piatti tra cui carni rosse, pasta, formaggi o insalate.", "en": "Dark cherry colour with violet reflections. Powerful aromas of red fruit, strawberries and flowers. Fresh and soft flavour, with fruity intensity and a long, pleasant aftertaste. Pairings: a wonderful wine to accompany a variety of dishes including red meat, pasta, cheese or salads.", "fr": "Couleur cerise foncée avec des reflets violacés. Arômes puissants de fruits rouges, de fraises et de fleurs. Saveur fraîche et souple, avec une intensité fruitée et un arrière-goût long et agréable. Accords : un vin merveilleux pour accompagner divers plats, notamment les viandes rouges, les pâtes, les fromages ou les salades.", "de": "Dunkle Kirschfarbe mit violetten Reflexen. Kraftvolle Aromen von roten Früchten, Erdbeeren und Blüten. Frischer und weicher Geschmack mit fruchtiger Intensität und einem langen, angenehmen Abgang. Empfehlung: ein wunderbarer Wein zu verschiedenen Gerichten, darunter rotes Fleisch, Pasta, Käse oder Salate." }
+    },
+    "remole-rose-toscana-frescobaldi": {
+      "name": { "es": "Remole Rosé (Toscana) - Frescobaldi", "it": "Remole Rose (Toscana) - Frescobaldi", "en": "Remole Rosé (Tuscany) - Frescobaldi", "fr": "Remole Rosé (Toscane) - Frescobaldi", "de": "Remole Rosé (Toskana) - Frescobaldi" },
+      "description": { "es": "Ligero, fresco con notas florales, perfecto como aperitivo, con pescado o verduras.", "it": "Leggero, fresco con nota floreale, perfetto come aperitivo, con pesce o verdure.", "en": "Light and fresh with a floral note, perfect as an aperitif, with fish or vegetables.", "fr": "Léger et frais avec une note florale, parfait comme apéritif, avec du poisson ou des légumes.", "de": "Leicht und frisch mit einer blumigen Note, perfekt als Aperitif, zu Fisch oder Gemüse." }
+    },
+    "bardolino-rosato-santa-sofia-2": {
+      "name": { "es": "Bardolino Rosado - Santa Sofía", "it": "Bardolino Rosato - Santa Sofia", "en": "Bardolino Rosato - Santa Sofia", "fr": "Bardolino Rosato - Santa Sofia", "de": "Bardolino Rosato - Santa Sofia" },
+      "description": { "es": "De aspecto coral brillante con decididos reflejos cobrizos, tiene una nariz que expresa con elegancia recuerdos de hierbas aromáticas, orégano y mejorana, luego afrutados de frambuesas, guindas y granadas hasta suaves sensaciones minerales, casi marinas. El sorbo, armónico y muy bebible, revela suavidad y delicadeza, para luego volverse más vibrante, animado por una frescura a frambuesa, cerrando dinámicamente con largas sensaciones cítricas-amargas a chinotto. Maridajes gastronómicos: muy versátil en su capacidad de fundirse con los más variados platos: desde entrantes a base de pescados grasos y verduras, hasta primeros platos de pasta condimentados en rojo con carnes blancas o sabrosos productos del mar: perfecto con la Caprese, la pizza napolitana con anchoas, los carpaccios ahumados tanto de carne como de pescado y el prosciutto con melón. Incomparable con la paella y con los platos especiados de la cocina india, como el pollo al curry.", "it": "Di aspetto corallo brillante dai decisi riflessi ramati, ha naso che esprime con garbo ricordi di erbe aromatiche, origano e maggiorana, poi fruttati di lamponi, amarene e melagrane sino a suadenti sensazioni minerali, quasi marine., Il sorso, armonico e beverino, svela suadenza e morbidezza, per poi farsi più vibrante, ravvivato da una freschezza al lampone, chiudendo dinamicamente su lunghe sensazioni agrumato-amaricanti al chinotto., Abbinamenti gastronomici: Assai versatile la sua capacità di fondersi con i più svariati piatti: dagli antipasti a base di pesci grassi e verdure, ai primi piatti di pasta conditi in rosso con carni bianche o gustosi prodotti ittici: perfetto con la Caprese, la pizza napoletana con le aggiughe, i carpacci affumicati sia di carne sia di pesce e il prosciutto e melone. Impagabile con la paella e con i piatti speziati della cucina indiana, tipo il pollo al curry.", "en": "Bright coral appearance with marked coppery reflections, its nose elegantly expresses hints of aromatic herbs, oregano and marjoram, then raspberry, sour cherry and pomegranate fruit, up to gentle, almost marine mineral sensations. The sip, harmonious and quaffable, reveals smoothness and softness, then becomes more vibrant, enlivened by a raspberry freshness, closing dynamically with long citrus-bitter chinotto sensations. Food pairings: highly versatile in its ability to blend with the most varied dishes: from starters based on fatty fish and vegetables, to first courses of pasta dressed in red with white meats or tasty fish: perfect with Caprese, Neapolitan pizza with anchovies, smoked carpaccio of both meat and fish, and prosciutto and melon. Invaluable with paella and with the spicy dishes of Indian cuisine, such as chicken curry.", "fr": "D'aspect corail brillant aux reflets cuivrés affirmés, son nez exprime avec élégance des souvenirs d'herbes aromatiques, d'origan et de marjolaine, puis des fruits de framboises, de griottes et de grenades jusqu'à de suaves sensations minérales, presque marines. Le sorbe, harmonieux et gouleyant, révèle douceur et moelleux, pour ensuite devenir plus vibrant, ravivé par une fraîcheur framboisée, se terminant dynamiquement sur de longues sensations d'agrumes amers au chinotto. Accords gastronomiques : très polyvalent dans sa capacité à se fondre dans les plats les plus variés : des entrées à base de poissons gras et de légumes, aux premiers plats de pâtes assaisonnés en rouge avec des viandes blanches ou de savoureux produits de la mer : parfait avec la Caprese, la pizza napolitaine aux anchois, les carpaccios fumés de viande et de poisson, et le jambon cru au melon. Incomparable avec la paella et les plats épicés de la cuisine indienne, comme le poulet au curry.", "de": "Von glänzendem Korallenglanz mit deutlichen Kupferreflexen, zeigt die Nase mit Anmut Anklänge von aromatischen Kräutern, Oregano und Majoran, dann fruchtige Noten von Himbeeren, Sauerkirschen und Granatäpfeln bis hin zu sanften, fast maritimen mineralischen Empfindungen. Der Schluck, harmonisch und trinkig, offenbart Sanftheit und Weichheit, wird dann lebendiger, belebt von einer Himbeerfrische, und schließt dynamisch mit langen zitrusbitteren Chinotto-Noten. Speiseempfehlung: sehr vielseitig, verschmilzt mit den unterschiedlichsten Gerichten: von Vorspeisen mit fettem Fisch und Gemüse bis zu roten Pasta-Erstgerichten mit weißem Fleisch oder schmackhaften Fischprodukten: perfekt zur Caprese, neapolitanischer Pizza mit Sardellen, geräuchertem Carpaccio von Fleisch und Fisch sowie Schinken und Melone. Unbezahlbar zu Paella und den würzigen Gerichten der indischen Küche, wie Hühnercurry." }
+    },
+    "prosecco-sangria": {
+      "name": { "es": "Sangría de Prosecco", "it": "Prosecco Sangria", "en": "Prosecco Sangria", "fr": "Sangria au Prosecco", "de": "Prosecco-Sangria" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "acqua-500ml": {
+      "name": { "es": "Agua 500ml", "it": "Acqua 500ml", "en": "Water 500ml", "fr": "Eau 500ml", "de": "Wasser 500ml" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "coca-cola": {
+      "name": { "es": "Coca-Cola", "it": "Coca cola", "en": "Coca-Cola", "fr": "Coca-Cola", "de": "Coca-Cola" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "coca-cola-light-zero": {
+      "name": { "es": "Coca-Cola light/zero", "it": "Coca cola light/zero", "en": "Coca-Cola Light/Zero", "fr": "Coca-Cola light/zéro", "de": "Coca-Cola Light/Zero" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "fanta-orange-lemon": {
+      "name": { "es": "Fanta naranja/limón", "it": "Fanta orange/lemon", "en": "Fanta orange/lemon", "fr": "Fanta orange/citron", "de": "Fanta Orange/Zitrone" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "sprite": {
+      "name": { "es": "Sprite", "it": "Sprite", "en": "Sprite", "fr": "Sprite", "de": "Sprite" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "appletizer": {
+      "name": { "es": "Appletizer", "it": "Appletizer", "en": "Appletizer", "fr": "Appletizer", "de": "Appletizer" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "tonica": {
+      "name": { "es": "Tónica", "it": "Tonica", "en": "Tonic water", "fr": "Tonic", "de": "Tonic Water" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "soda-ginger-ale": {
+      "name": { "es": "Soda/Ginger Ale", "it": "Soda/Ginger Ale", "en": "Soda/Ginger Ale", "fr": "Soda/Ginger Ale", "de": "Soda/Ginger Ale" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "zumos": {
+      "name": { "es": "Zumos", "it": "Zumos", "en": "Fresh juices", "fr": "Jus de fruits", "de": "Fruchtsäfte" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "nestea": {
+      "name": { "es": "Nestea", "it": "Nestea", "en": "Nestea", "fr": "Nestea", "de": "Nestea" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "1-2-litro-vino-della-casa": {
+      "name": { "es": "1/2 litro vino de la casa", "it": "1/2 litro vino della casa", "en": "House wine 1/2 litre", "fr": "1/2 litre de vin de la maison", "de": "1/2 Liter Hauswein" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "1-4-litro-vino-della-casa": {
+      "name": { "es": "1/4 litro vino de la casa", "it": "1/4 litro vino della casa", "en": "House wine 1/4 litre", "fr": "1/4 litre de vin de la maison", "de": "1/4 Liter Hauswein" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "nostra-sangria-1-litro": {
+      "name": { "es": "Nuestra sangría 1 litro", "it": "Nostra Sangria 1 litro", "en": "Our sangria 1 litre", "fr": "Notre sangria 1 litre", "de": "Unsere Sangria 1 Liter" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "estrella-galicia-alla-spina-20-cl": {
+      "name": { "es": "Estrella Galicia de barril 20 cl", "it": "Estrella Galicia alla spina 20 cl", "en": "Estrella Galicia on tap 20 cl", "fr": "Estrella Galicia pression 20 cl", "de": "Estrella Galicia vom Fass 20 cl" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "estrella-galicia-alla-spina-40-cl": {
+      "name": { "es": "Estrella Galicia de barril 40 cl", "it": "Estrella Galicia alla spina 40 cl", "en": "Estrella Galicia on tap 40 cl", "fr": "Estrella Galicia pression 40 cl", "de": "Estrella Galicia vom Fass 40 cl" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "estrella-galicia-bot-33-cl": {
+      "name": { "es": "Estrella Galicia bot. 33 cl", "it": "Estrella Galicia bot. 33 cl", "en": "Estrella Galicia bottle 33 cl", "fr": "Estrella Galicia bot. 33 cl", "de": "Estrella Galicia Flasche 33 cl" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "estrella-galicia-0-0-senza-alcool": {
+      "name": { "es": "Estrella Galicia 0,0 sin alcohol", "it": "Estrella Galicia 0,0 senza alcool", "en": "Estrella Galicia 0.0 alcohol-free", "fr": "Estrella Galicia 0,0 sans alcool", "de": "Estrella Galicia 0,0 alkoholfrei" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "estrella-galicia-1906": {
+      "name": { "es": "Estrella Galicia 1906", "it": "Estrella Galicia 1906", "en": "Estrella Galicia 1906", "fr": "Estrella Galicia 1906", "de": "Estrella Galicia 1906" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "barraquito": {
+      "name": { "es": "BARRAQUITO", "it": "BARRAQUITO", "en": "Barraquito", "fr": "Barraquito", "de": "Barraquito" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "espresso": {
+      "name": { "es": "Espresso", "it": "Espresso", "en": "Espresso", "fr": "Espresso", "de": "Espresso" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "caffe-macchiato": {
+      "name": { "es": "Café macchiato", "it": "Caffé macchiato", "en": "Caffè macchiato", "fr": "Café macchiato", "de": "Macchiato" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "cortado-bon-bon": {
+      "name": { "es": "Cortado / Bon Bon", "it": "Cortado / Bon Bon", "en": "Cortado / Bon Bon", "fr": "Cortado / Bon Bon", "de": "Cortado / Bon Bon" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "leche-leche": {
+      "name": { "es": "Leche y leche", "it": "Leche leche", "en": "Leche leche", "fr": "Leche leche", "de": "Leche leche" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "leche-leche-largo": {
+      "name": { "es": "Leche y leche largo", "it": "Leche leche largo", "en": "Leche leche largo", "fr": "Leche leche largo", "de": "Leche leche largo" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "cafe-con-leche": {
+      "name": { "es": "Café con leche", "it": "Café con leche", "en": "Coffee with milk", "fr": "Café au lait", "de": "Kaffee mit Milch" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "cappuccino-italiano": {
+      "name": { "es": "Cappuccino italiano", "it": "Cappuccino italiano", "en": "Italian cappuccino", "fr": "Cappuccino italien", "de": "Italienischer Cappuccino" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "latte-macchiato": {
+      "name": { "es": "Latte macchiato", "it": "Latte macchiato", "en": "Latte macchiato", "fr": "Latte macchiato", "de": "Latte macchiato" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "carajillo-corretto": {
+      "name": { "es": "Carajillo / corretto", "it": "Carajillo / corretto", "en": "Carajillo / corretto", "fr": "Carajillo / corretto", "de": "Carajillo / corretto" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "te": {
+      "name": { "es": "Té", "it": "Te", "en": "Tea", "fr": "Thé", "de": "Tee" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "infusi": {
+      "name": { "es": "Infusiones", "it": "Infusi", "en": "Herbal teas", "fr": "Infusions", "de": "Kräutertees" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "camomilla": {
+      "name": { "es": "Manzanilla", "it": "Camomilla", "en": "Chamomile tea", "fr": "Camomille", "de": "Kamillentee" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "menta-poleo": {
+      "name": { "es": "Menta poleo", "it": "Menta poleo", "en": "Mint tea", "fr": "Menthe pouliot", "de": "Poleiminze-Tee" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "hot-special-thai-infusion": {
+      "name": { "es": "Infusión caliente especial tailandesa", "it": "Hot special Thai infusion", "en": "Hot special Thai infusion", "fr": "Infusion chaude spéciale thaïlandaise", "de": "Heiße Thai-Spezial-Infusion" },
+      "description": { "es": "raíz de jengibre, menta piperita fresca, ralladura de limón, zumo de limón exprimido", "it": "radice di zenzero, menta piperita fresca, scorza di limone, succo di limone spremuto", "en": "ginger root, fresh peppermint, lemon zest, freshly squeezed lemon juice", "fr": "racine de gingembre, menthe poivrée fraîche, zeste de citron, jus de citron pressé", "de": "Ingwerwurzel, frische Pfefferminze, Zitronenschale, frisch gepresster Zitronensaft" }
+    },
+    "irish-coffee": {
+      "name": { "es": "Irish coffee", "it": "Irish coffee", "en": "Irish coffee", "fr": "Irish coffee", "de": "Irish Coffee" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "amaretto-di-saronno": {
+      "name": { "es": "Amaretto di Saronno", "it": "Amaretto di Saronno", "en": "Amaretto di Saronno", "fr": "Amaretto di Saronno", "de": "Amaretto di Saronno" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "sambuca": {
+      "name": { "es": "Sambuca", "it": "Sambuca", "en": "Sambuca", "fr": "Sambuca", "de": "Sambuca" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "amari": {
+      "name": { "es": "Amargos", "it": "Amari", "en": "Bitters", "fr": "Amers", "de": "Bitter" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "grappa-bianca": {
+      "name": { "es": "Grappa blanca", "it": "Grappa bianca", "en": "White grappa", "fr": "Grappa blanche", "de": "Weiße Grappa" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "grappa-barricata": {
+      "name": { "es": "Grappa de barrica", "it": "Grappa barricata", "en": "Barrel-aged grappa", "fr": "Grappa barriquée", "de": "Barrique-Grappa" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "baileys-irish-cream": {
+      "name": { "es": "Baileys Irish cream", "it": "Baileys Irish cream", "en": "Baileys Irish Cream", "fr": "Baileys Irish Cream", "de": "Baileys Irish Cream" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "tia-maria": {
+      "name": { "es": "Tia Maria", "it": "Tia Maria", "en": "Tia Maria", "fr": "Tia Maria", "de": "Tia Maria" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "khalua": {
+      "name": { "es": "Khalua", "it": "Khalua", "en": "Kahlúa", "fr": "Kahlúa", "de": "Kahlúa" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "frangelico": {
+      "name": { "es": "Frangelico", "it": "Frangelico", "en": "Frangelico", "fr": "Frangelico", "de": "Frangelico" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "limoncello-biologico": {
+      "name": { "es": "Limoncello ecológico", "it": "Limoncello biologico", "en": "Organic limoncello", "fr": "Limoncello bio", "de": "Biolimoncello" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "martini-bianco-rosso-dry": {
+      "name": { "es": "Martini blanco/rojo/dry", "it": "Martini bianco/rosso/dry", "en": "Martini white/red/dry", "fr": "Martini blanc/rouge/dry", "de": "Martini bianco/rosso/dry" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "campari": {
+      "name": { "es": "Campari", "it": "Campari", "en": "Campari", "fr": "Campari", "de": "Campari" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "aperol": {
+      "name": { "es": "Aperol", "it": "Aperol", "en": "Aperol", "fr": "Aperol", "de": "Aperol" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "veterano-brandy": {
+      "name": { "es": "Brandy Veterano", "it": "Veterano Brandy", "en": "Veterano brandy", "fr": "Brandy Veterano", "de": "Brandy Veterano" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "magno-brandy": {
+      "name": { "es": "Brandy Magno", "it": "Magno Brandy", "en": "Magno brandy", "fr": "Brandy Magno", "de": "Brandy Magno" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "carlos-i-brandy": {
+      "name": { "es": "Brandy Carlos I", "it": "Carlos I Brandy", "en": "Carlos I brandy", "fr": "Brandy Carlos I", "de": "Brandy Carlos I" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "havana-7": {
+      "name": { "es": "Havana 7", "it": "Havana 7", "en": "Havana 7", "fr": "Havana 7", "de": "Havana 7" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "beefeater-gin": {
+      "name": { "es": "Ginebra Beefeater", "it": "Beefeater Gin", "en": "Beefeater gin", "fr": "Gin Beefeater", "de": "Beefeater Gin" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "bombay-gin": {
+      "name": { "es": "Ginebra Bombay", "it": "Bombay Gin", "en": "Bombay gin", "fr": "Gin Bombay", "de": "Bombay Gin" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "ballantines-whisky": {
+      "name": { "es": "Whisky Ballantines", "it": "Ballantines whisky", "en": "Ballantine's whisky", "fr": "Whisky Ballantine's", "de": "Ballantine's Whisky" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "jhonny-walker-whisky-black": {
+      "name": { "es": "Whisky Johnnie Walker Black", "it": "Jhonny walker whisky Black", "en": "Johnnie Walker Black Label whisky", "fr": "Whisky Johnnie Walker Black", "de": "Johnnie Walker Black Whisky" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "jhonny-walker-whisky-red": {
+      "name": { "es": "Whisky Johnnie Walker Red", "it": "Jhonny walker whisky Red", "en": "Johnnie Walker Red Label whisky", "fr": "Whisky Johnnie Walker Red", "de": "Johnnie Walker Red Whisky" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "shot-chupito": {
+      "name": { "es": "Shot/Chupito", "it": "Shot/Chupito", "en": "Shot/Chupito", "fr": "Shot/Chupito", "de": "Shot/Chupito" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "combinado": {
+      "name": { "es": "Combinado", "it": "Combinado", "en": "Mixed drink", "fr": "Cocktail", "de": "Mischgetränk" },
+      "description": { "es": "+1,00 €", "it": "+1,00 €", "en": "+€1.00", "fr": "+1,00 €", "de": "+1,00 €" }
+    },
+    "aperol-spritz": {
+      "name": { "es": "Aperol Spritz", "it": "Aperol Spritz", "en": "Aperol Spritz", "fr": "Aperol Spritz", "de": "Aperol Spritz" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "campari-2": {
+      "name": { "es": "Campari", "it": "Campari", "en": "Campari", "fr": "Campari", "de": "Campari" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "gordon-s-gin": {
+      "name": { "es": "Ginebra Gordon's", "it": "Gordon's Gin", "en": "Gordon's gin", "fr": "Gin Gordon's", "de": "Gordon's Gin" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "moskowskaya-vodka": {
+      "name": { "es": "Vodka Moskowskaya", "it": "Moskowskaya vodka", "en": "Moskowskaya vodka", "fr": "Vodka Moskowskaya", "de": "Moskowskaya Wodka" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "smirnoff-vodka": {
+      "name": { "es": "Vodka Smirnoff", "it": "Smirnoff vodka", "en": "Smirnoff vodka", "fr": "Vodka Smirnoff", "de": "Smirnoff Wodka" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "martini-bianco-rosso-dry-2": {
+      "name": { "es": "Martini blanco/rojo/dry", "it": "Martini bianco/rosso/dry", "en": "Martini white/red/dry", "fr": "Martini blanc/rouge/dry", "de": "Martini bianco/rosso/dry" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    },
+    "ron-arehucas-blanco-oro": {
+      "name": { "es": "Ron Arehucas blanco/oro", "it": "Ron Arehucas blanco/oro", "en": "Arehucas rum white/gold", "fr": "Rhum Arehucas blanc/or", "de": "Arehucas Rum blanco/oro" },
+      "description": { "es": "", "it": "", "en": "", "fr": "", "de": "" }
+    }
+  }
+}
