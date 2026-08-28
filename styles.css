@@ -736,6 +736,12 @@ img {
     color: var(--gold);
 }
 
+.footer-social svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
 .footer-links {
     display: flex;
     flex-direction: column;

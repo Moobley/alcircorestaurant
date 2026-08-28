@@ -16,6 +16,7 @@ checks = {
     'reduced motion': 'prefers-reduced-motion' in css,
     'only narrow-phone max-width': re.findall(r'@media \(max-width: (\d+)px\)', css) == ['359'],
     'print bar hidden': '.mobile-action-bar' in css.split('@media print')[1] if '@media print' in css else False,
+    'footer svg fixed size': '.footer-social svg' in css and 'width: 24px' in css and 'height: 24px' in css,
 }
 failed = [k for k, ok in checks.items() if not ok]
 if failed:
