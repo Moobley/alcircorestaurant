@@ -24,6 +24,18 @@ checks = {
     'css open state': '.menu-category-collapse.is-open' in css,
     'css chevron': '.menu-category-chevron' in css,
     'css reduced-motion': 'prefers-reduced-motion' in css,
+    'modal class': "'menu-modal'" in js,
+    'openMenuModal fn': 'openMenuModal' in js,
+    'dialog role': "'role', 'dialog'" in js,
+    'aria-modal': 'aria-modal' in js,
+    'escape close': "'Escape'" in js,
+    'body lock': "'menu-modal-open'" in js,
+    'card role button': 'aria-haspopup' in js,
+    'dataset name': 'dataset.name' in js,
+    'css modal': '.menu-modal' in css,
+    'css modal image': '.menu-modal-image' in css,
+    'css modal close': '.menu-modal-close' in css,
+    'css body lock': '.menu-modal-open' in css,
 }
 failed = [k for k, ok in checks.items() if not ok]
 if failed:

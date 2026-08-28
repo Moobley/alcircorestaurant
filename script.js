@@ -130,6 +130,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (menuContainer) {
         const lang = document.documentElement.lang || 'es';
 
+        const modalLabels = {
+            es: { close: 'Cerrar', dialog: 'Detalle del plato' },
+            it: { close: 'Chiudi', dialog: 'Dettaglio piatto' },
+            en: { close: 'Close', dialog: 'Dish details' },
+            fr: { close: 'Fermer', dialog: 'Détail du plat' },
+            de: { close: 'Schließen', dialog: 'Gerichtdetails' }
+        };
+
         fetch('data/menu.json')
             .then(response => {
                 if (!response.ok) {
@@ -218,6 +226,23 @@ document.addEventListener('DOMContentLoaded', function() {
                         });
                         itemEl.appendChild(itemBadges);
 
+                        itemEl.tabIndex = 0;
+                        itemEl.setAttribute('role', 'button');
+                        itemEl.setAttribute('aria-haspopup', 'dialog');
+                        itemEl.dataset.name = item.name[lang] || item.name.it;
+                        itemEl.dataset.description = item.description[lang] || item.description.it;
+                        itemEl.dataset.image = item.image;
+                        itemEl.dataset.price = (item.price !== null && item.price !== undefined) ? String(item.price) : '';
+                        itemEl.dataset.priceFrom = item.priceFrom ? 'true' : '';
+                        itemEl.dataset.badges = JSON.stringify(item.badges || []);
+                        itemEl.addEventListener('click', function() { openMenuModal(itemEl); });
+                        itemEl.addEventListener('keydown', function(e) {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault();
+                                openMenuModal(itemEl);
+                            }
+                        });
+
                         return itemEl;
                     };
 
@@ -248,6 +273,83 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error loading menu:', error);
                 menuContainer.innerHTML = '<p class="menu-error">Menu temporarily unavailable.</p>';
             });
+
+        function openMenuModal(itemEl) {
+            const t = modalLabels[lang] || modalLabels.es;
+            const overlay = document.createElement('div');
+            overlay.className = 'menu-modal';
+            overlay.setAttribute('role', 'dialog');
+            overlay.setAttribute('aria-modal', 'true');
+            overlay.setAttribute('aria-label', t.dialog);
+
+            const dialog = document.createElement('div');
+            dialog.className = 'menu-modal-dialog';
+
+            const closeBtn = document.createElement('button');
+            closeBtn.type = 'button';
+            closeBtn.className = 'menu-modal-close';
+            closeBtn.setAttribute('aria-label', t.close);
+            closeBtn.innerHTML = '&times;';
+            dialog.appendChild(closeBtn);
+
+            const img = document.createElement('img');
+            img.className = 'menu-modal-image';
+            img.src = itemEl.dataset.image;
+            img.alt = itemEl.dataset.name;
+            img.onerror = () => {
+                img.src = 'images/menu/placeholder.png';
+                img.onerror = null;
+            };
+            dialog.appendChild(img);
+
+            const name = document.createElement('div');
+            name.className = 'menu-modal-name';
+            name.textContent = itemEl.dataset.name;
+            dialog.appendChild(name);
+
+            const desc = document.createElement('p');
+            desc.className = 'menu-modal-description';
+            desc.textContent = itemEl.dataset.description;
+            dialog.appendChild(desc);
+
+            const price = document.createElement('div');
+            price.className = 'menu-modal-price';
+            if (itemEl.dataset.price !== '') {
+                const formatted = '€ ' + parseFloat(itemEl.dataset.price).toFixed(2).replace('.', ',');
+                price.textContent = itemEl.dataset.priceFrom === 'true' ? 'Da ' + formatted : formatted;
+            }
+            dialog.appendChild(price);
+
+            const badges = document.createElement('div');
+            badges.className = 'menu-modal-badges';
+            JSON.parse(itemEl.dataset.badges || '[]').forEach(badge => {
+                const badgeEl = document.createElement('span');
+                badgeEl.className = 'badge badge-' + badge;
+                badgeEl.textContent = badge;
+                badges.appendChild(badgeEl);
+            });
+            dialog.appendChild(badges);
+
+            overlay.appendChild(dialog);
+            document.body.appendChild(overlay);
+
+            const close = () => {
+                overlay.remove();
+                document.body.classList.remove('menu-modal-open');
+                document.removeEventListener('keydown', onKeydown);
+                itemEl.focus();
+            };
+            const onKeydown = (e) => {
+                if (e.key === 'Escape') close();
+            };
+            closeBtn.addEventListener('click', close);
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) close();
+            });
+            document.addEventListener('keydown', onKeydown);
+            document.body.classList.add('menu-modal-open');
+            closeBtn.focus();
+        }
     }
     
     // Lazy load images
