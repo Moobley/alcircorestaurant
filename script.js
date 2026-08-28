@@ -140,14 +140,40 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(data => {
                 menuContainer.innerHTML = '';
 
-                data.categories.forEach(category => {
+                data.categories.forEach((category, categoryIndex) => {
                     const categoryEl = document.createElement('div');
                     categoryEl.className = 'menu-category';
 
-                    const categoryTitle = document.createElement('h3');
+                    const collapseId = 'menu-category-' + categoryIndex;
+
+                    const categoryToggle = document.createElement('button');
+                    categoryToggle.type = 'button';
+                    categoryToggle.className = 'menu-category-toggle';
+                    categoryToggle.setAttribute('aria-expanded', 'false');
+                    categoryToggle.setAttribute('aria-controls', collapseId);
+
+                    const categoryTitle = document.createElement('span');
                     categoryTitle.className = 'menu-category-title';
                     categoryTitle.textContent = category.name[lang] || category.name.it;
-                    categoryEl.appendChild(categoryTitle);
+                    categoryToggle.appendChild(categoryTitle);
+
+                    const chevron = document.createElement('span');
+                    chevron.className = 'menu-category-chevron';
+                    chevron.setAttribute('aria-hidden', 'true');
+                    chevron.innerHTML = '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>';
+                    categoryToggle.appendChild(chevron);
+
+                    categoryEl.appendChild(categoryToggle);
+
+                    const collapse = document.createElement('div');
+                    collapse.id = collapseId;
+                    collapse.className = 'menu-category-collapse';
+
+                    categoryToggle.addEventListener('click', function() {
+                        const expanded = categoryToggle.getAttribute('aria-expanded') === 'true';
+                        categoryToggle.setAttribute('aria-expanded', String(!expanded));
+                        collapse.classList.toggle('is-open', !expanded);
+                    });
 
                     const renderItem = (item) => {
                         const itemEl = document.createElement('div');
@@ -199,21 +225,22 @@ document.addEventListener('DOMContentLoaded', function() {
                         const itemsGrid = document.createElement('div');
                         itemsGrid.className = 'menu-items-grid';
                         category.items.forEach(item => itemsGrid.appendChild(renderItem(item)));
-                        categoryEl.appendChild(itemsGrid);
+                        collapse.appendChild(itemsGrid);
                     } else {
                         category.subcategories.forEach(sub => {
                             const subTitle = document.createElement('h4');
                             subTitle.className = 'menu-subcategory-title';
                             subTitle.textContent = sub.name[lang] || sub.name.it;
-                            categoryEl.appendChild(subTitle);
+                            collapse.appendChild(subTitle);
 
                             const itemsGrid = document.createElement('div');
                             itemsGrid.className = 'menu-items-grid';
                             sub.items.forEach(item => itemsGrid.appendChild(renderItem(item)));
-                            categoryEl.appendChild(itemsGrid);
+                            collapse.appendChild(itemsGrid);
                         });
                     }
 
+                    categoryEl.appendChild(collapse);
                     menuContainer.appendChild(categoryEl);
                 });
             })
