@@ -340,7 +340,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 itemEl.focus();
             };
             const onKeydown = (e) => {
-                if (e.key === 'Escape') close();
+                if (e.key === 'Escape') {
+                    close();
+                    return;
+                }
+                if (e.key !== 'Tab') return;
+                const focusables = dialog.querySelectorAll(
+                    'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+                );
+                if (focusables.length === 0) {
+                    e.preventDefault();
+                    closeBtn.focus();
+                    return;
+                }
+                const first = focusables[0];
+                const last = focusables[focusables.length - 1];
+                if (e.shiftKey && document.activeElement === first) {
+                    e.preventDefault();
+                    last.focus();
+                } else if (!e.shiftKey && document.activeElement === last) {
+                    e.preventDefault();
+                    first.focus();
+                }
             };
             closeBtn.addEventListener('click', close);
             overlay.addEventListener('click', (e) => {
